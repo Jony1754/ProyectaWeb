@@ -20,6 +20,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -34,7 +35,7 @@ main {
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 243, 238, 1) 100%,
     rgba(255, 222, 210, 1) 100%,
-    rgba(255, 207, 189, 1) 100%,
+    rgba(255, 207, 189, 1) 0%,
     rgba(255, 133, 88, 1) 0%
   );
   padding: 100px 0;
@@ -223,12 +224,17 @@ main h2 {
 .feature--container {
   width: 100%;
   display: flex;
-
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   overflow-x: scroll;
   gap: 70px;
   padding: 0 40px;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+}
+
+.feature--container::-webkit-scrollbar {
+  display: none;
 }
 
 .feature {
@@ -253,7 +259,7 @@ main h2 {
   background-image: url(/Layout/images/psico.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 0 auto;
   position: absolute;
   left: calc(50% - 200px / 2);
