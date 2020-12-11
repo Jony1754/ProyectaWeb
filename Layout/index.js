@@ -14,10 +14,10 @@ function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
   pageContent[0].style.visibility = "hidden";
   pageContent[1].style.visibility = "hidden";
-  pageContent[2].style.visibility = "hidden";
+    pageContent[2].style.visibility = "hidden";
 }
 
-function closeNav() {
+function closeNav() { 
   document.getElementById("mySidenav").style.width = "0";
   pageContent[0].style.visibility = "";
   pageContent[1].style.visibility = "";

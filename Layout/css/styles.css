@@ -25,6 +25,18 @@ html {
   font-size: 62.5%;
   font-family: Nunito, sans-serif;
 }
+main {
+  /* background-color: whitesmoke; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 243, 238, 1) 0%,
+    rgba(255, 222, 210, 1) 100%,
+    rgba(255, 207, 189, 1) 100%,
+    rgba(255, 133, 88, 1) 100%
+  );
+}
 
 header {
   position: relative;
@@ -203,7 +215,7 @@ main h2 {
 .feature {
   width: 100%;
   text-align: center;
-  margin-bottom: 80px;
+  margin-top: 80px;
   padding: 20px;
 }
 .secondary-btn {
@@ -467,7 +479,7 @@ footer {
   }
 
   main h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-bottom: 60px;
   }
 
