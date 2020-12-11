@@ -13,6 +13,7 @@
   --orange-soft: rgba(242, 148, 65, 0.2);
   --gray: #f2f2f2;
   --low-gray: rgba(39, 66, 89, 0.2);
+  --anotherEmphashis: #455d73;
 }
 
 * {
@@ -27,7 +28,7 @@ html {
 }
 main {
   /* background-color: whitesmoke; */
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
@@ -35,7 +36,8 @@ main {
     rgba(255, 222, 210, 1) 100%,
     rgba(255, 207, 189, 1) 100%,
     rgba(255, 133, 88, 1) 100%
-  );
+  ); */
+  padding: 100px 0;
 }
 
 header {
@@ -116,6 +118,7 @@ nav .header--logo {
   height: 40%;
   width: 100%;
   align-self: center;
+  margin-bottom: 120%;
 }
 
 .header--navbar,
@@ -155,7 +158,8 @@ h1 {
 }
 
 h1 span,
-h2 span {
+h2 span,
+h3 span {
   color: var(--emphasis-orange);
 }
 
@@ -210,14 +214,50 @@ main h2 {
 .feature--title {
   color: var(--main-color);
   margin: 0;
+  font-size: 1.8rem;
+}
+
+.feature--container {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  gap: 90px;
+  padding: 0 50px;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 
 .feature {
   width: 100%;
+  min-width: 288px;
+  max-width: 400px;
   text-align: center;
   margin-top: 80px;
-  padding: 20px;
+  /* margin-right: 90px; */
+  padding: 30px 0;
+  position: relative;
+  scroll-snap-align: center;
 }
+
+.feature:nth-child(2) {
+  margin-left: -80px;
+  /* background-color: red; */
+}
+
+.feature--img-container {
+  width: 200px;
+  height: 150px;
+  background-image: url(/Layout/images/psico.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: calc(50% - 200px / 2);
+  top: -80px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
 .secondary-btn {
   border: 3px solid var(--emphasis-orange);
   border-radius: 20px;
@@ -236,38 +276,38 @@ main h2 {
 .feature--description-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  height: 350px;
   align-content: center;
-  padding: 20px;
+  padding: 50px;
   width: 100%;
-  height: 250px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-image: url(/Layout/images/blob2.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-size: contain;
-  border-radius: 30px;
   position: relative;
   /* left: -20px; */
-  box-shadow: 4px 3px 12px rgba(39, 66, 89, 0.3);
+  box-shadow: 4px 3px 12px rgba(39, 66, 89, 0.5);
 }
 
-.feature--description-container img {
-  width: 147px;
-  height: 150px;
-  border-radius: 30px;
-  align-self: center;
+.badge {
+  width: 40px;
+  position: absolute;
+  bottom: -25px;
+  left: calc(50% - 20px);
 }
 
 .feature--description-container p,
 .about p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   text-align: left;
-  font-weight: 600;
+  font-weight: 700;
   align-self: center;
-  color: var(--main-color);
+  color: var(--anotherEmphashis);
 }
 
 p span {
@@ -298,27 +338,6 @@ footer {
   list-style: none;
 }
 
-@media (min-width: 320px) {
-  .header--hero {
-    margin-bottom: 120%;
-  }
-  .feature--description-container {
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-  }
-
-  .feature--description-container img {
-    width: 170px;
-  }
-
-  .badge {
-    width: 40px;
-    position: absolute;
-    bottom: -25px;
-    left: calc(50% - 20px);
-  }
-}
 @media (min-width: 375px) {
   .header--hero {
     margin-bottom: 120%;
@@ -326,10 +345,6 @@ footer {
   .feature--description-container {
     flex-direction: row;
     height: auto;
-  }
-
-  .feature--description-container img {
-    width: 45%;
   }
 }
 
@@ -366,11 +381,6 @@ footer {
   .about p {
     font-size: 2.1rem;
     line-height: 30px;
-  }
-
-  .feature--description-container img {
-    width: 230px;
-    height: 200px;
   }
 
   footer {
@@ -464,11 +474,6 @@ footer {
     margin: 0;
     padding: 0;
     box-shadow: none;
-  }
-
-  .feature--description-container img {
-    width: 40%;
-    height: 600px;
   }
 
   .feature--description-container p {
