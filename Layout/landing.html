@@ -10,6 +10,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width: 768px)"
+    />
   </head>
   <body>
     <div class="sidenav" id="mySidenav">
@@ -23,8 +28,8 @@
       </ul>
     </div>
     <header>
-      <img src="./icons/hamb_menu.svg" alt="" class="hamb_menu" />
       <nav>
+        <img src="./icons/hamb_menu.svg" alt="" class="hamb_menu" />
         <img src="./images/logo.svg" alt="" class="header--logo" />
         <ul class="header--navbar">
           <li><a href="">Inicio</a></li>
@@ -33,9 +38,23 @@
           <li><a href="">Asesoía virtual</a></li>
         </ul>
         <ul class="header--social-branding">
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>LinkedIn</li>
+          <li>
+            <a href="#"><img src="./icons/facebook.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" id="instagram"
+              ><img src="./icons/instagram.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#" id="linkedin"
+              ><img src="./icons/linkedin.svg" alt=""
+            /></a>
+          </li>
+
+          <li>
+            <a href=""><img src="./icons/user.svg" alt="" /></a>
+          </li>
         </ul>
       </nav>
       <div class="hero">
@@ -69,6 +88,23 @@
       </section>
       <h2><span>SERVICIOS</span> QUE OFRECEMOS</h2>
       <section class="feature--container">
+        <section class="feature">
+          <div class="feature--img-container"></div>
+
+          <div class="feature--description-container">
+            <h3 class="feature--title">
+              Programas <br /><span>psicoterap&eacute;uticos</span>
+            </h3>
+            <p>
+              Son <span>procesos</span> donde a través de diversas herramientas
+              nos facilitan la elaboración de
+              <span>conflictos</span> emocionales que no permiten que las
+              personas lograr gozar de un estado de
+              <span>bienestar personal</span>
+            </p>
+            <a href="#" class="secondary-btn">Conoce m&aacute;s</a>
+          </div>
+        </section>
         <section class="feature">
           <div class="feature--img-container"></div>
 
