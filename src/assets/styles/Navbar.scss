@@ -1,0 +1,23 @@
+@import "./Vars.scss";
+header nav {
+  background-color: $orange-soft;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.hamb_menu {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  left: 0;
+  top: calc(50% - 30px / 2);
+}
+.header--navbar,
+.navbar--social-branding {
+  display: none;
+}
+.header--logo {
+  margin: 0 auto;
+}

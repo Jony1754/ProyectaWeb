@@ -1,12 +1,4 @@
-:root {
-  /* Colores */
-  --main-color: #274259;
-  --emphasis-orange: #f26d3d;
-  --orange-soft: rgba(242, 148, 65, 0.2);
-  --gray: #f2f2f2;
-  --low-gray: rgba(39, 66, 89, 0.2);
-  --anotherEmphashis: #455d73;
-}
+@import "./Vars.scss";
 @media screen and (min-width: 768px) {
   main {
     padding: 20px;
@@ -71,7 +63,7 @@
     align-content: center;
   }
   li a {
-    color: var(--main-color);
+    color: $main-color;
     text-decoration: none;
     margin: 0 20px;
   }

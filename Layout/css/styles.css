@@ -116,7 +116,7 @@ header nav {
   flex-direction: column;
 }
 
-.header--hero {
+.hero--img {
   min-width: 320px;
   height: 40%;
   width: 100%;
@@ -125,11 +125,11 @@ header nav {
 }
 
 .header--navbar,
-.header--social-branding {
+.navbar--social-branding {
   display: none;
 }
 
-.header--title-container {
+.hero--title-container {
   width: 84.53%;
   min-width: 288px;
   max-width: 900px;
@@ -148,14 +148,14 @@ header nav {
 }
 
 h1 {
-  width: 32.771rem;
-  height: 18.9rem;
+  width: 33rem;
+  height: 19rem;
   vertical-align: middle;
   text-align: center;
   font-weight: 800;
-  font-size: 2.65rem;
+  font-size: 2.7rem;
   position: relative;
-  line-height: 3.6rem;
+  line-height: 3.8rem;
   color: var(--main-color);
   left: calc(50% - 330px / 2);
   top: 87.36px;
@@ -167,7 +167,7 @@ h3 span {
   color: var(--emphasis-orange);
 }
 
-.header--button {
+.hero--button {
   border: 3px solid #f29441;
   border-radius: 20px;
 
@@ -349,7 +349,7 @@ footer {
 }
 
 @media (min-width: 425px) {
-  .header--hero {
+  .hero--img {
     margin-bottom: 200px;
   }
 } ;
