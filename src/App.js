@@ -1,8 +1,10 @@
 import React from "react";
 import Header from './Containers/Header'
+import Main from './Containers/Main';
 function App() {
   return( <>
   <Header/>
+   <Main/>
   </>);
 }
 

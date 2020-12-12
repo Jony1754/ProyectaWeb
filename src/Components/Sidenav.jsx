@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
+import '../assets/styles/Sidenav.scss';
 export default function Sidenav() {
   return (
     <div className="sidenav" id="mySidenav">

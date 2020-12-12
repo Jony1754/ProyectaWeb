@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hero--title-container">
         <h1>
           BUSCANDO EL <span>FORTALECIMIENTO</span> DE LOS
-          <span>POTENCIALES</span> HUMANOS
+          <span> POTENCIALES</span> HUMANOS
         </h1>
         <a href="#about" className="hero--button">
           Conoce m&aacute;s

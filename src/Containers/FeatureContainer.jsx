@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../assets/styles/Features.scss";
 export default function FeatureContainer() {
   return (
     <section class="feature--container">
@@ -14,9 +14,9 @@ export default function FeatureContainer() {
           <p>
             Son <span>procesos</span> donde a través de diversas herramientas
             nos facilitan la elaboración de
-            <span>conflictos</span> emocionales que no permiten que las personas
-            lograr gozar de un estado de
-            <span>bienestar personal</span>
+            <span> conflictos </span> emocionales que no permiten que las
+            personas lograr gozar de un estado de
+            <span> bienestar personal</span>
           </p>
           <a href="#" class="secondary-btn">
             Conoce m&aacute;s
@@ -34,9 +34,9 @@ export default function FeatureContainer() {
           <p>
             Son <span>procesos</span> donde a través de diversas herramientas
             nos facilitan la elaboración de
-            <span>conflictos</span> emocionales que no permiten que las personas
-            lograr gozar de un estado de
-            <span>bienestar personal</span>
+            <span> conflictos </span> emocionales que no permiten que las
+            personas lograr gozar de un estado de
+            <span> bienestar personal</span>
           </p>
           <a href="#" class="secondary-btn">
             Conoce m&aacute;s
@@ -54,9 +54,9 @@ export default function FeatureContainer() {
           <p>
             Son <span>procesos</span> donde a través de diversas herramientas
             nos facilitan la elaboración de
-            <span>conflictos</span> emocionales que no permiten que las personas
-            lograr gozar de un estado de
-            <span>bienestar personal</span>
+            <span> conflictos </span> emocionales que no permiten que las
+            personas lograr gozar de un estado de
+            <span> bienestar personal</span>
           </p>
           <a href="#" class="secondary-btn">
             Conoce m&aacute;s
