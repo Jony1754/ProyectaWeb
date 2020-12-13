@@ -32,7 +32,6 @@ h3 span {
   color: $emphasis-orange;
 }
 
-
 .secondary-btn {
   border: 3px solid $emphasis-orange;
   border-radius: 20px;
@@ -41,10 +40,17 @@ h3 span {
   top: 30px;
   color: $emphasis-orange;
   font-weight: 800;
+  background-color: transparent;
   font-size: 1.4rem;
   line-height: 1.8rem;
   padding: 9px 20px;
   text-align: center;
   box-shadow: 4px 4px 4px rgba(242, 148, 65, 0.3);
 }
+.secondary-btn:hover {
+  transition: 500ms;
+  color: whitesmoke;
+  background-color: $emphasis-orange;
+}
+
 @import "./tablet.scss";

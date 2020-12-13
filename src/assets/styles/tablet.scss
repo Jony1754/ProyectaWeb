@@ -1,5 +1,12 @@
 @import "./Vars.scss";
 @media screen and (min-width: 768px) {
+  .about-us {
+    padding: 100px;
+  }
+  .aboutus--text {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+  }
   main {
     padding: 20px;
   }
