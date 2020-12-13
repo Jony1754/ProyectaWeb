@@ -3,7 +3,7 @@
   .hero--img {
     margin-bottom: 200px;
   }
-} ;
+}
 @media screen and (min-width: 768px) {
   .about-us {
     padding: 100px;
@@ -64,6 +64,7 @@
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    height: 90px;
   }
   .header--navbar,
   .navbar--social-branding {
@@ -73,11 +74,16 @@
     font-size: 1.5rem;
     align-items: center;
     align-content: center;
+    position: relative;
   }
   li a {
     color: $main-color;
     text-decoration: none;
     margin: 0 20px;
+  }
+  :hover {
+    transition: 300ms;
+    color: $emphasis-orange;
   }
 
   footer {
@@ -91,5 +97,10 @@
   a img {
     width: 33px;
     height: 33px;
+  }
+
+  .programs:hover .programs--list,
+  .programs--list:hover {
+    display: inline-block !important;
   }
 } ;

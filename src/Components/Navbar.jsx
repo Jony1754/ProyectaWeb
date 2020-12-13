@@ -18,8 +18,16 @@ export default function Navbar() {
         <li>
           <Link to="/">Inicio</Link>
         </li>
-        <li>
-          <a href="">Programas</a>
+        <li className="programs">
+          <Link>Programas</Link>
+          <ul className="programs--list">
+            <li>
+              <Link to="/programas/psicoeducativos">Psicoeducativos</Link>
+            </li>
+            <li>
+              <Link to="/programas/empresariales">Empresariales</Link>
+            </li>
+          </ul>
         </li>
         <li>
           <Link to="/about">Nosotros</Link>

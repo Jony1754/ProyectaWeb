@@ -7,12 +7,14 @@ footer {
   font-size: 1.2rem;
   justify-content: space-between;
   flex-wrap: nowrap;
+  position: relative;
+  bottom: 0;
 }
 
 .footer--item {
   text-align: center;
   margin: 10px;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .footer--item h3 {
@@ -24,4 +26,4 @@ footer {
   list-style: none;
 }
 
-@import './tablet.scss'
+@import "./tablet.scss";
