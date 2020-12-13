@@ -1,0 +1,27 @@
+@import "./Vars.scss";
+
+footer {
+  background-color: $orange-soft;
+  padding: 15px;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.footer--item {
+  text-align: center;
+  margin: 10px;
+  font-weight:600;
+}
+
+.footer--item h3 {
+  color: $emphasis-orange;
+}
+
+.footer--item li {
+  color: $main-color;
+  list-style: none;
+}
+
+@import './tablet.scss'
