@@ -2,12 +2,12 @@ import React from "react";
 import "../assets/styles/Features.scss";
 export default function FeatureContainer() {
   return (
-    <section class="feature--container">
-      <section class="feature">
-        <div class="feature--img-container"></div>
+    <section className="feature--container">
+      <section className="feature">
+        <div className="feature--img-container"></div>
 
-        <div class="feature--description-container">
-          <h3 class="feature--title">
+        <div className="feature--description-container">
+          <h3 className="feature--title">
             Programas <br />
             <span>psicoterap&eacute;uticos</span>
           </h3>
@@ -18,16 +18,16 @@ export default function FeatureContainer() {
             personas lograr gozar de un estado de
             <span> bienestar personal</span>
           </p>
-          <a href="#" class="secondary-btn">
+          <a href="#" className="secondary-btn">
             Conoce m&aacute;s
           </a>
         </div>
       </section>
-      <section class="feature">
-        <div class="feature--img-container"></div>
+      <section className="feature">
+        <div className="feature--img-container"></div>
 
-        <div class="feature--description-container">
-          <h3 class="feature--title">
+        <div className="feature--description-container">
+          <h3 className="feature--title">
             Programas <br />
             <span>psicoterap&eacute;uticos</span>
           </h3>
@@ -38,16 +38,16 @@ export default function FeatureContainer() {
             personas lograr gozar de un estado de
             <span> bienestar personal</span>
           </p>
-          <a href="#" class="secondary-btn">
+          <a href="#" className="secondary-btn">
             Conoce m&aacute;s
           </a>
         </div>
       </section>
-      <section class="feature">
-        <div class="feature--img-container"></div>
+      <section className="feature">
+        <div className="feature--img-container"></div>
 
-        <div class="feature--description-container">
-          <h3 class="feature--title">
+        <div className="feature--description-container">
+          <h3 className="feature--title">
             Programas <br />
             <span>psicoterap&eacute;uticos</span>
           </h3>
@@ -58,7 +58,7 @@ export default function FeatureContainer() {
             personas lograr gozar de un estado de
             <span> bienestar personal</span>
           </p>
-          <a href="#" class="secondary-btn">
+          <a href="#" className="secondary-btn">
             Conoce m&aacute;s
           </a>
         </div>

@@ -1,10 +1,12 @@
 import React from "react";
 import "../assets/styles/Navbar.scss";
 import logo from "../assets/images/logo.svg";
-import facebook from '../assets/icons/facebook.svg';
-import instagram from '../assets/icons/instagram.svg';
-import linkedin from '../assets/icons/linkedin.svg'
-import user from '../assets/icons/user.svg'
+import facebook from "../assets/icons/facebook.svg";
+import instagram from "../assets/icons/instagram.svg";
+import linkedin from "../assets/icons/linkedin.svg";
+import user from "../assets/icons/user.svg";
+
+import { Link } from "react-router-dom";
 
 import hamb_menu from "../assets/icons/hamb_menu.svg";
 export default function Navbar() {
@@ -14,13 +16,13 @@ export default function Navbar() {
       <img src={logo} alt="" className="header--logo" />
       <ul className="header--navbar">
         <li>
-          <a href="">Inicio</a>
+          <Link to="/">Inicio</Link>
         </li>
         <li>
           <a href="">Programas</a>
         </li>
         <li>
-          <a href="">Nosotros</a>
+          <Link to="/about">Nosotros</Link>
         </li>
         <li>
           <a href="">Asesor&iacute;a virtual</a>
@@ -39,7 +41,7 @@ export default function Navbar() {
         </li>
         <li>
           <a href="#" id="linkedin">
-            <img src={linkedin}alt="" />
+            <img src={linkedin} alt="" />
           </a>
         </li>
 
