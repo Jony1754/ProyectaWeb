@@ -1,4 +1,9 @@
 @import "./Vars.scss";
+@media (min-width: 425px) {
+  .hero--img {
+    margin-bottom: 200px;
+  }
+} ;
 @media screen and (min-width: 768px) {
   .about-us {
     padding: 100px;
