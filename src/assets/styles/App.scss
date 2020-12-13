@@ -1,0 +1,56 @@
+@import "./Vars.scss";
+@import "./Header.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Nunito, sans-serif;
+}
+main {
+  /* background-color: whitesmoke; */
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 243, 238, 1) 100%,
+    rgba(255, 222, 210, 1) 100%,
+    rgba(255, 207, 189, 1) 0%,
+    rgba(255, 133, 88, 1) 0%
+  );
+  padding: 100px 0;
+}
+
+h1 span,
+h2 span,
+h3 span {
+  color: $emphasis-orange;
+}
+
+.secondary-btn {
+  border: 3px solid $emphasis-orange;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+  color: $emphasis-orange;
+  font-weight: 800;
+  background-color: transparent;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding: 9px 20px;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgba(242, 148, 65, 0.3);
+}
+.secondary-btn:hover {
+  transition: 500ms;
+  color: whitesmoke;
+  background-color: $emphasis-orange;
+}
+
+@import "./tablet.scss";
