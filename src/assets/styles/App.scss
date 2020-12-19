@@ -11,6 +11,9 @@
 html {
   font-size: 62.5%;
   font-family: Nunito, sans-serif;
+  width: 100%;
+}
+body {
 }
 main {
   /* background-color: whitesmoke; */
@@ -23,7 +26,7 @@ main {
     rgba(255, 207, 189, 1) 0%,
     rgba(255, 133, 88, 1) 0%
   );
-  padding: 100px 0;
+  // padding: 100px 0;
 }
 
 h1 span,
@@ -51,6 +54,15 @@ h3 span {
   transition: 500ms;
   color: whitesmoke;
   background-color: $emphasis-orange;
+}
+
+.active {
+  color: $emphasis-orange;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
 }
 
 @import "./tablet.scss";

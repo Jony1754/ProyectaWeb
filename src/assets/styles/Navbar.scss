@@ -31,3 +31,9 @@ header nav {
   background-color: transparent;
   border-radius: 0 0 30px 30px;
 }
+
+li a:hover {
+  transition: 300ms;
+  color: $emphasis-orange;
+}
+

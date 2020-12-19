@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../assets/styles/Navbar.scss";
 import logo from "../assets/images/logo.svg";
 import facebook from "../assets/icons/facebook.svg";
@@ -6,31 +6,50 @@ import instagram from "../assets/icons/instagram.svg";
 import linkedin from "../assets/icons/linkedin.svg";
 import user from "../assets/icons/user.svg";
 
-import { Link } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
 import hamb_menu from "../assets/icons/hamb_menu.svg";
+
 export default function Navbar() {
+  useEffect(() => {
+    const open = document.getElementById("hamb_menu");
+    open.onclick = (event) => {
+      document.getElementById("mySidenav").style.width = "100%";
+      disableScroll();
+    };
+  }, []);
+  function disableScroll() {
+    document.body.classList.add("stop-scrolling");
+  }
+
   return (
     <nav>
-      <img src={hamb_menu} alt="" className="hamb_menu" />
+      <img src={hamb_menu} alt="" className="hamb_menu" id="hamb_menu" />
       <img src={logo} alt="" className="header--logo" />
       <ul className="header--navbar">
         <li>
-          <Link to="/">Inicio</Link>
+          <NavLink activeClassName="active" exact to="/">
+            Inicio
+          </NavLink>
         </li>
         <li className="programs">
-          <Link>Programas</Link>
+          <a href="">Programas</a>
           <ul className="programs--list">
             <li>
-              <Link to="/programas/psicoeducativos">Psicoeducativos</Link>
+              <NavLink activeClassName="active" to="/programas/psicoeducativos">
+                Psicoeducativos
+              </NavLink>
             </li>
             <li>
-              <Link to="/programas/empresariales">Empresariales</Link>
+              <NavLink activeClassName="active" to="/programas/empresariales">
+                Empresariales
+              </NavLink>
             </li>
           </ul>
         </li>
         <li>
-          <Link to="/about">Nosotros</Link>
+          <NavLink activeClassName="active" to="/about">
+            Nosotros
+          </NavLink>
         </li>
         <li>
           <a href="">Asesor&iacute;a virtual</a>
