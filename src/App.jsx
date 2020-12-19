@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Psicoeducativos from "./Pages/Psicoeducativos";
 import Empresariales from "./Pages/Empresariales";
-
+import Asesoria from "./Pages/Aseroria";
 function App() {
   return (
     <>
@@ -24,6 +24,7 @@ function App() {
               path="/programas/empresariales"
               component={Empresariales}
             />
+            <Route exact path="/asesoria" component={Asesoria} />
           </Switch>
         </Layout>
       </BrowserRouter>

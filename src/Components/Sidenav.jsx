@@ -22,7 +22,7 @@ export default function Sidenav() {
 
   return (
     <div className="sidenav" id="mySidenav">
-      <a href="javascript:void(0)" id="goback"></a>
+      <a href="#" id="goback"></a>
       <img src={logo} alt="" className="logo" />
       <ul className="sidenav--list">
         <li>

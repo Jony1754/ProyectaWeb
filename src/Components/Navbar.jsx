@@ -52,30 +52,32 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <a href="">Asesor&iacute;a virtual</a>
+          <NavLink activeClassName="active" exact to="/asesoria">
+            Asesor&iacute;a virtual
+          </NavLink>
         </li>
       </ul>
       <ul className="navbar--social-branding">
         <li>
-          <a href="#">
+          <a href="www.facebook.com">
             <img src={facebook} alt="" />
           </a>
         </li>
         <li>
-          <a href="#" id="instagram">
+          <a href="www.instagram.com" id="instagram">
             <img src={instagram} alt="" />
           </a>
         </li>
         <li>
-          <a href="#" id="linkedin">
+          <a href="www.linkedin.com" id="linkedin">
             <img src={linkedin} alt="" />
           </a>
         </li>
 
         <li>
-          <a href="">
+          <Link to="/account">
             <img src={user} alt="" />
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

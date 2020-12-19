@@ -1,0 +1,27 @@
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature--title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .feature--description-container p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .feature--img-container {
+    width: 250px;
+    height: 170px;
+    left: calc(50% - 125px);
+    top: -80px;
+  }
+}

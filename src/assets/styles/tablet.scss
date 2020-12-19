@@ -37,6 +37,10 @@
     justify-self: center;
   }
 
+  .feature .secondary-btn {
+    margin-top: -20px;
+  }
+
   main h2 {
     font-size: 3rem;
     margin-bottom: 50px;
@@ -106,10 +110,10 @@
   }
 
   .feature--img-container {
-    width: 250px;
-    height: 170px;
-    left: calc(50% - 125px);
-    top: -80px;
+    width: 220px;
+    height: 150px;
+    left: calc(50% - 110px);
+    top: -90px;
   }
 
   .programs:hover .programs--list,
