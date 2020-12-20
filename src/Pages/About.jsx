@@ -3,11 +3,11 @@ import "../assets/styles/About.scss";
 export default function About() {
   return (
     <main className="about-us">
-      <h2>
+      <h2 className="BigTitle">
         SOBRE <span>NOSOTROS</span>
       </h2>
       <p className="aboutus--text">
-        Somos una empresa que se enfoca en generar y fortalecer la{" "}
+        Somos una empresa que se enfoca en generar y fortalecer la
         <span> salud emocional</span> y cognitiva a través de la
         <span> reestructuración de hábitos</span>. Proporcionamos herramientas
         que permiten a través del autoconocimiento explotar el potencial de cada

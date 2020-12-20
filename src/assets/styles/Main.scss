@@ -1,4 +1,4 @@
-@import './Vars.scss';
+@import "./Vars.scss";
 .about {
   background-color: $orange-soft;
   padding: 25px;
@@ -17,11 +17,3 @@
   left: calc(50% - 20px);
 }
 
-main h2 {
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.97rem;
-  line-height: 27px;
-  color: $main-color;
-  margin-bottom: 20px;
-}

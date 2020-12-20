@@ -9,10 +9,10 @@ export default function Main() {
     <>
       <Hero />
       <main>
-        <h2>SOBRE NOSOTROS</h2>
+        <h2 className="BigTitle">SOBRE NOSOTROS</h2>
         <section className="about" id="about">
           <img src={logo} alt="" className="header--logo" />
-          <p>
+          <p className="about__description">
             Somos una empresa que se enfoca en generar y fortalecer la
             <span> salud emocional y cognitiva</span> a través de la
             reestructuración de hábitos. Proporcionamos herramientas que
@@ -27,7 +27,7 @@ export default function Main() {
           </p>
           <img src={badge} alt="" className="badge" />
         </section>
-        <h2>
+        <h2 className="BigTitle">
           <span>SERVICIOS</span> QUE OFRECEMOS
         </h2>
         <FeatureContainer />

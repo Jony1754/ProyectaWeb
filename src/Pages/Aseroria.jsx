@@ -3,7 +3,7 @@ import "../assets/styles/Asesoria.scss";
 const Aseroria = () => {
   return (
     <main>
-      <h2>
+      <h2 className="BigTitle">
         ASESOR&Iacute;A <span>VIRTUAL</span>{" "}
       </h2>
       <form className="contact">

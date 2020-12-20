@@ -14,6 +14,7 @@
   gap: 70px;
   padding: 0 40px;
   overscroll-behavior-x: contain;
+  justify-content: center;
   scroll-snap-type: x proximity;
 }
 
@@ -60,20 +61,20 @@
   align-content: center;
   padding: 50px;
   width: 100%;
-  background-image: url(../images/blob2.svg);
+  // background-image: url(../images/blob2.svg);
   background-color: whitesmoke;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: contain;
+  // background-repeat: no-repeat;
+  // background-position-x: center;
+  // background-position-y: center;
+  // background-size: contain;
   position: relative;
   /* left: -20px; */
   box-shadow: 4px 3px 12px rgba(39, 66, 89, 0.3);
 }
 
 .feature--description-container p,
-.about p {
-  font-size: 1.4em;
+.about__description {
+  font-size: 1.5rem;
   line-height: 20px;
   /* margin: 10px; */
   text-align: left;
