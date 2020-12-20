@@ -30,9 +30,19 @@
   .hero--title-container {
     top: 150px;
   }
-
-  .feature {
+  .feature--description-container {
+    height: 400px;
     width: 500px;
+  }
+
+  .feature--container {
+    gap: 300px;
+  }
+
+  .feature--img-container {
+    width: 300px;
+    height: 250px;
+    left: 100px;
   }
 }
 
@@ -40,6 +50,13 @@
   .about__description {
     font-size: 2.5rem;
     line-height: 3.5rem;
+  }
+
+  .feature--container {
+    justify-content: center;
+    // gap: 100px;
+    // gap: 10px;
+    // column-gap: 100px;
   }
   .hero {
     padding-top: 20px;
@@ -56,11 +73,6 @@
   .BigTitle {
     font-size: 3rem;
     margin-bottom: 50px;
-  }
-
-  .hero--img {
-    height: 570px;
-    border-radius: 30px 0 0 30px;
   }
 
   .hero--title-container {
@@ -112,23 +124,6 @@
   a img {
     width: 33px;
     height: 33px;
-  }
-
-  .feature--title {
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-  }
-
-  .feature--description-container p {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-
-  .feature--img-container {
-    width: 220px;
-    height: 150px;
-    left: calc(50% - 110px);
-    top: -90px;
   }
 
   .programs:hover .programs--list,

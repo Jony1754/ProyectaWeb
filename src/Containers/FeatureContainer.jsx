@@ -1,11 +1,14 @@
 import React from "react";
 import "../assets/styles/Features.scss";
+import psicoImg from "../assets/images/psico.jpg";
+import empresa from "../assets/images/empresa.jpg";
 export default function FeatureContainer() {
   return (
     <section className="feature--container">
       <section className="feature">
-        <div className="feature--img-container"></div>
-
+        <div className="feature--img-container">
+          <img src={empresa} alt="" />
+        </div>
         <div className="feature--description-container">
           <h3 className="feature--title">
             Programas <br />
@@ -24,7 +27,9 @@ export default function FeatureContainer() {
         </div>
       </section>
       <section className="feature">
-        <div className="feature--img-container"></div>
+        <div className="feature--img-container">
+          <img src={psicoImg} alt="" />
+        </div>
 
         <div className="feature--description-container">
           <h3 className="feature--title">
