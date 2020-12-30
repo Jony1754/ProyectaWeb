@@ -38,9 +38,8 @@ export default function FeatureContainer() {
           </h3>
           <p>
             Son programas que se apoyan en investigaciones aplicadas de
-            <span>psicología positiva</span> y se aplican para diseñar programas
-            de intervención en los medios empresariales con el fin de reestrurar
-            hábitos ...
+            <span> psicología positiva</span> y se aplican para diseñar
+            programas de intervención en los medios empresariales ...
           </p>
           <a href="#" className="secondary-btn">
             Conoce m&aacute;s
