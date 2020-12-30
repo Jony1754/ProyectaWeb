@@ -2,12 +2,24 @@ import React from "react";
 import FeatureContainer from "../Containers/FeatureContainer.jsx";
 import "../assets/styles/Main.scss";
 import badge from "../assets/icons/person_badge.svg";
-import Hero from "../Components/Hero";
+// import Hero from "../Components/Hero";
 import logo from "../assets/images/logo.svg";
-export default function Main() {
+import heroImg from "../assets/images/landing.jpg";
+export default function Landing() {
   return (
     <>
-      <Hero />
+      <div className="hero">
+        <img src={heroImg} alt="" className="hero--img" />
+        <div className="hero--title-container">
+          <h1>
+            BUSCANDO EL <span>FORTALECIMIENTO</span> DE LOS
+            <span> POTENCIALES</span> HUMANOS
+          </h1>
+          <a href="#about" className="hero--button">
+            Conoce m&aacute;s
+          </a>
+        </div>
+      </div>
       <main>
         <h2 className="BigTitle">SOBRE NOSOTROS</h2>
         <section className="about" id="about">

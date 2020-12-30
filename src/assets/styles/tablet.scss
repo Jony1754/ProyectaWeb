@@ -94,7 +94,7 @@
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    height: 90px;
+    // height: 200px;
   }
   .header--navbar,
   .navbar--social-branding {
@@ -109,8 +109,10 @@
   li a {
     color: $main-color;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0px 20px;
     font-size: 2rem;
+    text-align: center;
+    word-wrap: normal;
   }
 
   footer {
@@ -128,6 +130,10 @@
 
   .programs:hover .programs--list,
   .programs--list:hover {
-    display: inline-block !important;
+    display: inline-block;
+  }
+
+  .programs--list {
+    top: 25px;
   }
 } ;
