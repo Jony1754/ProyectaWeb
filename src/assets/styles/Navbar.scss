@@ -28,8 +28,8 @@ header nav {
   position: absolute;
   z-index: 3;
   left: calc(15% - 10px);
-  top: 40px;
-  background-color: $orange-soft;
+  top: 30px;
+  background-color: rgba($color: $orange-soft, $alpha: 0.1);
   height: 100px;
   border-radius: 20px;
   li {
@@ -40,4 +40,26 @@ header nav {
 ul li a:hover {
   transition: 300ms;
   color: $emphasis-orange;
+}
+
+@media screen and (min-width: 1024px) {
+  li a {
+    color: $main-color;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 2rem;
+    text-align: center;
+    word-wrap: normal;
+  }
+  a img {
+    width: 33px;
+    height: 33px;
+  }
+  .programs:hover .programs--list,
+  .programs--list:hover {
+    display: inline-block;
+  }
+  .programs--list {
+    top: 25px;
+  }
 }

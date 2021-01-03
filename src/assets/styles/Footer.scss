@@ -4,8 +4,8 @@ footer {
   background-color: $orange-soft;
   padding: 15px;
   display: flex;
-  font-size: 1.1rem;
-  justify-content: space-between;
+  font-size: 1.2rem;
+  justify-content: center;
   flex-wrap: nowrap;
   position: relative;
   bottom: 0;
@@ -14,8 +14,8 @@ footer {
 .footer--item {
   text-align: center;
   margin: 10px;
-  font-weight: 600;
-  h3 {
+  font-weight: 800;
+  &-title {
     color: $emphasis-orange;
   }
 
@@ -25,4 +25,21 @@ footer {
   }
 }
 
-@import "./tablet.scss";
+@media screen and(min-width: 600px){
+  footer{
+   justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    font-size: 1.8rem;
+
+  }
+
+}
