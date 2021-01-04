@@ -2,9 +2,10 @@ import React from "react";
 import FeatureContainer from "../Containers/FeatureContainer.jsx";
 import "../assets/styles/Main.scss";
 import badge from "../assets/icons/person_badge.svg";
-// import Hero from "../Components/Hero";
 import logo from "../assets/images/logo.svg";
 import heroImg from "../assets/images/landing.jpg";
+
+import "@brainhubeu/react-carousel/lib/style.css";
 export default function Landing() {
   return (
     <>
@@ -39,6 +40,7 @@ export default function Landing() {
           </p>
           <img src={badge} alt="" className="badge" />
         </section>
+
         <h2 className="BigTitle">
           <span>SERVICIOS</span> QUE OFRECEMOS
         </h2>
