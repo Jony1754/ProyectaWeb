@@ -1,6 +1,6 @@
 import React from "react";
 import Program from "../Components/Program";
-import programsList from "../utils/programsList";
+import { programsList } from "../utils/programsList";
 import "../assets/styles/Programs.scss";
 export default function Empresariales() {
   return (

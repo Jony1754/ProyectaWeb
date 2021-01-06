@@ -5,7 +5,6 @@ import badge from "../assets/icons/person_badge.svg";
 import logo from "../assets/images/logo.svg";
 import heroImg from "../assets/images/landing.jpg";
 
-import "@brainhubeu/react-carousel/lib/style.css";
 export default function Landing() {
   return (
     <>
