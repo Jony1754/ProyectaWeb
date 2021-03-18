@@ -96,7 +96,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 3005,
+    port: process.env.PORT || 3005,
     hot: true,
     historyApiFallback: true, //PARA REACT ROUTER
   },
