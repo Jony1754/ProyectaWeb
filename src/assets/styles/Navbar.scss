@@ -1,0 +1,65 @@
+@import "./Vars.scss";
+header nav {
+  background-color: $orange-soft;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.hamb_menu {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  left: 0;
+  top: calc(50% - 30px / 2);
+}
+.header--navbar,
+.navbar--social-branding {
+  display: none;
+}
+.header--logo {
+  margin: 0 auto;
+}
+
+.programs--list {
+  display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 3;
+  left: calc(15% - 10px);
+  top: 30px;
+  background-color: rgba($color: $orange-soft, $alpha: 0.1);
+  height: 100px;
+  border-radius: 20px;
+  li {
+    margin-top: 12px;
+  }
+}
+
+ul li a:hover {
+  transition: 300ms;
+  color: $emphasis-orange;
+}
+
+@media screen and (min-width: 1024px) {
+  li a {
+    color: $main-color;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 2rem;
+    text-align: center;
+    word-wrap: normal;
+  }
+  a img {
+    width: 33px;
+    height: 33px;
+  }
+  .programs:hover .programs--list,
+  .programs--list:hover {
+    display: inline-block;
+  }
+  .programs--list {
+    top: 25px;
+  }
+}

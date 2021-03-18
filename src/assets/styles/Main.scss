@@ -1,0 +1,166 @@
+@import "./Vars.scss";
+.about {
+  background-color: $orange-soft;
+  padding: 25px;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.Customers {
+  width: 100%;
+  // height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  img {
+    width: 90px;
+  }
+}
+.about .header--logo {
+  margin-bottom: 0 auto;
+}
+
+.about__description {
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 600;
+  align-self: center;
+  color: $main-color;
+}
+.badge {
+  width: 40px;
+  position: absolute;
+  bottom: -25px;
+  left: calc(50% - 20px);
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    width: 33rem;
+    height: 19rem;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    position: relative;
+    line-height: 3.8rem;
+    color: $main-color;
+    left: calc(50% - 330px / 2);
+    top: 87.36px;
+  }
+}
+
+.hero--img {
+  min-width: 320px;
+  height: 50%;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 200px;
+}
+
+.hero--title-container {
+  width: 84.53%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 318px;
+  text-align: center;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 35px;
+  position: absolute;
+  top: 151px;
+  background-image: url(../images/blob1.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hero--button {
+  border: 3px solid #f29441;
+  border-radius: 20px;
+
+  text-decoration: none;
+  color: $emphasis-orange;
+  font-weight: 800;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding: 9px 20px;
+  position: relative;
+  top: 6.5rem;
+}
+
+.BigTitle {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: $main-color;
+  margin-bottom: 20px;
+}
+@media (min-width: 425px) {
+  .hero--img {
+    margin-bottom: 150px;
+  }
+
+  .BigTitle {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .hero--img {
+    margin-bottom: 50px;
+  }
+  .BigTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 600px) {
+  main {
+    padding: 20px;
+  }
+  .hero--img {
+    margin-bottom: 10px;
+    height: 550px;
+  }
+
+  .hero--title-container {
+    top: 150px;
+  }
+  .about__description {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-self: center;
+  }
+  .hero--title-container {
+    position: relative;
+    align-self: center;
+    top: calc(50% - 100px);
+  }
+
+  .BigTitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .about__description {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+}

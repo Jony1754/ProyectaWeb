@@ -1,0 +1,54 @@
+@import "./Vars.scss";
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px; /*Dimension mas pequeña en celulares*/
+  text-align: center;
+}
+
+header nav {
+  background-color: $orange-soft;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .header--logo {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hamb_menu {
+    display: none;
+  }
+  .header--logo {
+    margin: 0;
+    width: 300px;
+  }
+  // The main navigation bar
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    // height: 200px;
+  }
+  .header--navbar,
+  .navbar--social-branding {
+    display: flex;
+    list-style: none;
+    font-weight: 800;
+    font-size: 1.5rem;
+    align-items: center;
+    align-content: center;
+    position: relative;
+  }
+}

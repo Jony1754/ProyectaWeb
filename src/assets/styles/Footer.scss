@@ -1,0 +1,45 @@
+@import "./Vars.scss";
+
+footer {
+  background-color: $orange-soft;
+  padding: 15px;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: relative;
+  bottom: 0;
+}
+
+.footer--item {
+  text-align: center;
+  margin: 10px;
+  font-weight: 800;
+  &-title {
+    color: $emphasis-orange;
+  }
+
+  li {
+    color: $main-color;
+    list-style: none;
+  }
+}
+
+@media screen and(min-width: 600px){
+  footer{
+   justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    font-size: 1.8rem;
+
+  }
+
+}
