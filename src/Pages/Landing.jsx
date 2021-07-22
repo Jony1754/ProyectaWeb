@@ -26,16 +26,20 @@ export default function Landing() {
           <img src={logo} alt="" className="header--logo" />
           <p className="about__description">
             Somos una empresa que se enfoca en generar y fortalecer la
-            <span> salud emocional y cognitiva</span> a través de la
-            reestructuración de hábitos. Proporcionamos herramientas que
-            permiten a través del autoconocimiento explotar el{" "}
+            <span> salud emocional</span>  y cognitiva a través de la
+            <span> reestructuración de hábitos</span>. Proporcionamos herramientas que
+            permiten, a través del autoconocimiento, explotar el
             <span>potencial</span> de cada ser humano, a través del diagnóstico,
             diseño, coordinación y ejecución de programas de intervención.
             Tenemos
             <span> 15 años</span> de experiencia y desde la
             <span> psicología clínica </span>
             hemos aprendido la importancia de la salud emocional y cómo de esta
-            depende el comportamiento y desarrollo de
+            depende el comportamiento y desarrollo de las personas en los diferentes contextos; logramos
+        evidenciar a través de la aceptación de quienes somos, todo lo que se
+        logra en el momento en que se aceptan realidades. Hay tanto crecimiento y
+        fortalecimiento de los <span>potenciales</span> que se logran así evidenciar
+        mejoras en la calidad de vida.
           </p>
           <img src={badge} alt="" className="badge" />
         </section>

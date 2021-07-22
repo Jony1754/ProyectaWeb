@@ -13,7 +13,7 @@ export default function FeatureContainer() {
         <div className="feature--description-container">
           <h3 className="feature--title">
             Programas <br />
-            <span>psicoterap&eacute;uticos</span>
+            <span>psicoeducativos</span>
           </h3>
           <p>
             Son <span>procesos</span> donde a través de diversas herramientas
