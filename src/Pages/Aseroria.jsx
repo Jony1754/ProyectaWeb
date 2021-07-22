@@ -69,8 +69,9 @@ const Aseroria = () => {
                 className="contact--group__select-input"
                 value={value}
               >
-                <option value="psicoeducativos">psicoeducativos</option>
-                <option value="empresariales">empresariales</option>
+                <option value="psicoeducativos">Psicoeducativos</option>
+                <option value="empresariales">Empresariales</option>
+                <option value="psicoterapeutica">Psicoterapeutica</option>
               </select>
               <span className="focus"></span>
             </div>
