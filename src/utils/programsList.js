@@ -13,7 +13,7 @@ export const programsList = [{
     {
         id: 3,
         programName: "Programas psicoeducativos",
-        description: "Programas de capacitación para jóvenes mayores de 16 años con el fin de prevención de riesgos psicosociales",
+        description: "Programas de capacitación para jóvenes mayores de 16 años con el fin de prevención de riesgos psicosociales.",
         img: "https://images.pexels.com/photos/5940704/pexels-photo-5940704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
@@ -57,7 +57,7 @@ export const psicoeducativos = [{
     {
         id: 2,
         programName: "Orientación socio ocupacional",
-        description: "Es un programa individual o grupal para jóvenes próximos a terminar su vida escolar y facilitarle la toma de decisiones para su vida académica y profesional",
+        description: "Es un programa individual o grupal para jóvenes próximos a terminar su vida escolar y facilitarle la toma de decisiones para su vida académica y profesional.",
         img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     },
     {

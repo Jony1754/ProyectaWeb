@@ -132,7 +132,7 @@ const Aseroria = () => {
           </button>
           <Modal show={showModal} onClose={setShowModal}>
             Se ha enviado su petición. Un asesor de Proyecta lo contactará lo
-            antes posible
+            antes posible.
           </Modal>
         </form>
         <article className="main-form-description">

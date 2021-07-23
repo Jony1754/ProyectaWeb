@@ -23,37 +23,37 @@ import unibol from "../assets/images/Customers/unibol.png";
 
 export const gallery = [{
         title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral",
+        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
         image: cognitiva,
     },
     {
         title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral",
+        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
         image: cognitiva2,
     },
     {
         title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral",
+        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
         image: cognitiva3,
     },
     {
         title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal",
+        description: "Actividades guiadas para restaurar el bienestar corporal.",
         image: fatiga,
     },
     {
         title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal",
+        description: "Actividades guiadas para restaurar el bienestar corporal.",
         image: fatiga2,
     },
     {
         title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal",
+        description: "Actividades guiadas para restaurar el bienestar corporal.",
         image: fatiga3,
     },
     {
         title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal",
+        description: "Actividades guiadas para restaurar el bienestar corporal.",
         image: equipo,
     },
 ];

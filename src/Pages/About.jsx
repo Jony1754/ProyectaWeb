@@ -35,7 +35,7 @@ export default function About() {
         especializados en diversas disciplinas como{" "}
         <span>
           Piscología clínica, Coachs certificados, especialistas en salud
-          ocupacional, psicoterapeutas e ingenieros en diseño
+          ocupacional, psicoterapeutas, ingenieros en diseño y educación. 
         </span>
         , todos al frente del diseño, el coach, la salud y la ingeniería que se
         necesitan para la creación de programas con las bases necesarias para
@@ -47,7 +47,7 @@ export default function About() {
         los rasgos, atributos y/o variables que se deben tener en cuenta para
         alcanzar los objetivos de un programa, ya sea la mejora de
         hábitos en función de la calidad de vida o la exploración y el
-        fortalecimiento de equipos de trabajo.
+        fortalecimiento de equipos de trabajo o la educación para el trabajo en equipo y la comuncación asertiva. 
       </p>
     </main>
   );

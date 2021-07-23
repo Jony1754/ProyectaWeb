@@ -59,17 +59,17 @@ export default function Navbar() {
       </ul>
       <ul className="navbar--social-branding">
         <li>
-          <a href="www.facebook.com">
+          <a href='https://www.facebook.com/Proyecta-Potenciales-Humanos-100640651833333/'>
             <img src={facebook} alt="" />
           </a>
         </li>
         <li>
-          <a href="www.instagram.com" id="instagram">
+          <a href='https://instagram.com/proyecta_potenciales_humanos?utm_medium=copy_link' id="instagram">
             <img src={instagram} alt="" />
           </a>
         </li>
         <li>
-          <a href="www.linkedin.com" id="linkedin">
+          <a href='https://www.linkedin.com/company/proyecta-potenciales-humanos' id="linkedin">
             <img src={linkedin} alt="" />
           </a>
         </li>

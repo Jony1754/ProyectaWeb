@@ -18,7 +18,7 @@ export default function Footer() {
         <img src={phone} alt="" />
         <h3 className="footer--item-title">Cont&aacute;ctanos</h3>
         <ul>
-          <li>(+57) 314 565 7611</li>
+          <li><a href='https://api.whatsapp.com/send?phone=573145657611'>(+57) 314 565 7611</a></li>
           <li>info@proyecta.com</li>
         </ul>
       </div>
