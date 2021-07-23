@@ -10,19 +10,18 @@ export default function About() {
         SOBRE <span>NOSOTROS</span>
       </h2>
       <p className="aboutus--text">
-        Somos una empresa que se enfoca en generar y fortalecer la
+        Somos una empresa enfocada en generar y fortalecer la
         <span> salud emocional</span> y cognitiva a través de la
         <span> reestructuración de hábitos</span>. Proporcionamos herramientas
         que permiten, a través del autoconocimiento, explotar el potencial de cada
-        ser humano, mediante el diagnóstico, diseño, coordinación y ejecución
+        ser humano mediante el diagnóstico, diseño, coordinación y ejecución
         de programas de intervención. Tenemos <span>15 años</span> de
         experiencia y desde la psicología clínica hemos aprendido la importancia
-        de la salud emocional y cómo de esta depende el comportamiento y
-        desarrollo de las personas en los diferentes contextos; logramos
-        evidenciar como con la aceptación de quienes somos y todo lo que se
-        logra en el momento que se aceptan realidades hay tanto crecimiento y
-        fortalecimiento de los <span>potenciales</span> logrando así evidenciar
-        cambios hacia la mejora de la calidad vida.
+        de la salud emocional y cómo de esta, depende el comportamiento y
+        desarrollo de las personas en diferentes contextos; logramos
+        evidenciar que con la aceptación de quienes somos, se
+        logra un crecimiento y fortalecimiento de los <span>potenciales</span> en el momento que se aceptan realidades. 
+        De esta forma, se evidencia un mejoramiento de la calidad de vida.
       </p>
       <br />
       <div className="Gallery">
@@ -32,23 +31,23 @@ export default function About() {
         <br />
       </div>
       <p className="about aboutus--text">
-        Contamos con un equipo interdisciplinaria con profesionales
+        Contamos con un equipo interdisciplinario con profesionales
         especializados en diversas disciplinas como{" "}
         <span>
           Piscología clínica, Coachs certificados, especialistas en salud
-          ocupacional, psicoterapeutas, ingenieros en diseño
+          ocupacional, psicoterapeutas e ingenieros en diseño
         </span>
         , todos al frente del diseño, el coach, la salud y la ingeniería que se
-        necesitan para crear programas con las bases necesarias para
-        potencializar las cualidades del individuo en sí mismo y desde la
-        organización. Como todo sistema de gestión confiable, nuestros programas
-        poseen dentro de sus etapas de planeación y ajuste a las necesidades
+        necesitan para la creación de programas con las bases necesarias para
+        potencializar las cualidades del individuo para sí mismo y la
+        organización. Nuestros programas
+        poseen dentro de sus etapas de planeación, un ajuste a las necesidades
         tanto individuales como organizacionales, una etapa de medición y
-        control a través de indicadores validables que llevan a los cuantitativo
+        control a través de indicadores validables como
         los rasgos, atributos y/o variables que se deben tener en cuenta para
-        alcanzar los objetivos de un programa que pueden ir desde la mejora de
-        hábitos en función de la calidad de vida hasta la exploración y el
-        fortalecimiento de equipos exitosos de trabajo.
+        alcanzar los objetivos de un programa, ya sea la mejora de
+        hábitos en función de la calidad de vida o la exploración y el
+        fortalecimiento de equipos de trabajo.
       </p>
     </main>
   );

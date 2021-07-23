@@ -21,15 +21,8 @@ export default function Empresariales() {
 
       <section className="programs--description">
         <p>
-          Programas empresariales orientados a la salud emocional aplicada
-          al área de desarrollo humano tomando como referente investigaciones con
-          enfocadas en el constructivismo y la <span>psicología positiva</span>,
-          con el objetivo de diseñar programas de <span>intervención</span> en
-          los medios empresariales; estas poseen varios objetivos
-          en los que se encuentra la reestructuración de hábitos, la mejora del
-          comportamiento grupal o individual, el fortalecimiento de competencias que
-          apunten al bienestar de los trabajadores y así estos logren percibir mayor sensación de bienestar, placer y
-          felicidad en su <span>realización profesional</span> y personal.
+        Son programas que se apoyan en investigaciones científicas para 
+        el diseño e intervención en medios empresariales con el fin de fortalecer el <span>crecimiento personal y grupal</span>.
         </p>
       </section>
     </main>
