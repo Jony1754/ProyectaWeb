@@ -5,7 +5,7 @@ import "../assets/styles/Programs.scss";
 
 export default function Psicoeducativos() {
   return (
-    <main className="Empresariales">
+    <main className="empresariales">
       <h2 className="BigTitle">
         PROGRAMAS <span> PSICOEDUCATIVOS</span>
       </h2>
