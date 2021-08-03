@@ -60,33 +60,33 @@ export const psicoeducativos = [{
     },
     {
         id: 2,
+        programName: "Orientación socio ocupacional",
+        description: "Es un programa individual o grupal para jóvenes próximos a terminar su vida escolar y facilitarle la toma de decisiones para su vida académica y profesional.",
+        img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    },
+    {
+        id: 3,
         programName: "Tertulia literaria",
         description: "Es una actividad enfocada en realizar analisis de la salud emocional, mediante el uso de textos literarios que se asocian a la forma en como nos comportamos en diversas situaciones.",
         img: "https://images.pexels.com/photos/5940704/pexels-photo-5940704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
-        id: 3,
+        id: 4,
         programName: "Preparación a entrevistas",
         description: "Es un programa cuyo objetivo es llevar a las personas a tener un conocimiento más profundo de sí mismos y que en entrevistas laborales proyecten mayor seguridad.",
         img: "https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     },
     {
-        id: 4,
+        id: 5,
         programName: "Cineforos",
         description: "Es una actividad que se realiza con el objetivo de, a través de películas o documentales, realizar análisis de la salud emocional.",
         img: "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
     },
     {
-        id: 5,
+        id: 6,
         programName: "Actividades outdoor",
         description: "Son actividades realizadas al aire libre cuya finalidad es mejorar el trabajo en equipo.",
         img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    },
-    {
-        id: 6,
-        programName: "Programa de orientación ocupacional",
-        description: "Es un programa grupal con la finalidad de facilitar la toma de dicisiones académicas y profesionales.",
-        img: orientacion,
     },
 
 ];
