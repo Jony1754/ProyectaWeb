@@ -3,8 +3,8 @@ import cognitiva2 from "../assets/images/Gallery/cognitiva_2.JPG";
 import cognitiva3 from "../assets/images/Gallery/cognitiva_4.JPG";
 import equipo from "../assets/images/Gallery/equipo_1.JPG";
 import fatiga from "../assets/images/Gallery/fatiga_1.JPG";
-import fatiga2 from "../assets/images/Gallery/fatiga_2.jpg";
-import fatiga3 from "../assets/images/Gallery/fatiga_3.jpg";
+import fatiga2 from "../assets/images/Gallery/fatiga_2.JPG";
+import fatiga3 from "../assets/images/Gallery/fatiga_3.JPG";
 
 import uninorte from "../assets/images/Customers/uni-logo-centered.svg";
 import promigas from "../assets/images/Customers/logo-promigas.png";
