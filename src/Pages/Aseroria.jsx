@@ -71,7 +71,7 @@ const Aseroria = () => {
               >
                 <option value="psicoeducativos">Psicoeducativos</option>
                 <option value="empresariales">Empresariales</option>
-                <option value="psicoterapeutica">Psicoterapeuticas</option>
+                <option value="psicoterapeutico">Psicoterapeuticos</option>
               </select>
               <span className="focus"></span>
             </div>

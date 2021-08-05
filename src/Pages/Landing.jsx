@@ -29,7 +29,7 @@ export default function Landing() {
             <span> salud emocional</span>  y cognitiva a través de la
             <span> reestructuración de hábitos</span>. Proporcionamos herramientas que
             permiten, a través del autoconocimiento, explotar el
-            <span>potencial</span> de cada ser humano, a través del diagnóstico,
+             <span>potencial</span> de cada ser humano, a través del diagnóstico,
             diseño, coordinación y ejecución de programas de intervención.
             Tenemos
             <span> 15 años</span> de experiencia y desde la
