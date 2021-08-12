@@ -145,9 +145,9 @@ const Aseroria = () => {
             tecnologías y los portales virtuales que nos ofrecen la posibilidad
             de hablar a distancia. Por esta razón,
             <span> PROYECTA Potenciales Humanos </span>
-            le proporciona la facilidad de solicitar asesorías virtuales con
+            le proporciona la facilidad de solicitar asesorías virtuales y presenciales de Telepsicología con
             nuestra experta en el tema a través de los canales de comunicación
-            tecnológicos como Skype y WhatsApp.
+            tecnológicos como Zoom, WhatsApp, Meet o la plataforma que sea de su agrado.
           </p>
           <br />
           <p>

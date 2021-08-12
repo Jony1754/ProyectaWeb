@@ -19,6 +19,9 @@ export default function Footer() {
         <h3 className="footer--item-title">Cont&aacute;ctanos</h3>
         <ul>
           <li><a href='https://api.whatsapp.com/send?phone=573145657611'>(+57) 314 565 7611</a></li>
+          <li><a href='https://www.linkedin.com/company/proyecta-potenciales-humanos' id="linkedin">LinkedIN</a></li>
+          <li><a href='https://www.instagram.com/psicoproyecta/' id="instagram">Instagram</a></li>
+          <li><a href='https://www.facebook.com/Proyecta-Potenciales-Humanos-100640651833333/'>Facebook</a></li>
           <li>info@proyecta.com</li>
         </ul>
       </div>

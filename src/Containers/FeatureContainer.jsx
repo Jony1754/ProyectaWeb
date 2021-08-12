@@ -13,7 +13,7 @@ export default function FeatureContainer() {
         <div className="feature--description-container">
           <h3 className="feature--title">
             Programas <br />
-            <span>psicoeducativos</span>
+            <span>psicoterapéuticos</span>
           </h3>
           <p>
             Son <span>procesos</span> que mediante diversas herramientas,
@@ -35,10 +35,11 @@ export default function FeatureContainer() {
         <div className="feature--description-container">
           <h3 className="feature--title">
             Programas <br />
-            <span>empresariales</span>
+            <span>empresariales y psicoeducativos</span>
           </h3>
           <p>
-            Son programas aplicados de psicología activa, diseñados para la <span>intervención</span> y la mejora de la salud cognitiva y emocional de <span>los medios empresariales</span>.
+          Son programas psicoeducativos diseñados para la intervención y la mejora de la salud cognitiva 
+          y emocional en los ambientes laborales y/o institucionales.
           </p>
         </div>
         <Link to="/programas/empresariales" className="secondary-btn">

@@ -36,12 +36,12 @@ export default function Navbar() {
           <ul className="programs--list">
             <li>
               <NavLink activeClassName="active" to="/programas/psicoeducativos">
-                Psicoeducativos
+                Psicoterapéuticos
               </NavLink>
             </li>
             <li>
               <NavLink activeClassName="active" to="/programas/empresariales">
-                Empresariales
+                Empresariales y Psicoeducativos
               </NavLink>
             </li>
           </ul>
@@ -64,7 +64,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href='https://instagram.com/proyecta_potenciales_humanos?utm_medium=copy_link' id="instagram">
+          <a href='https://www.instagram.com/psicoproyecta/' id="instagram">
             <img src={instagram} alt="" />
           </a>
         </li>

@@ -19,6 +19,7 @@ import triplea from "../assets/images/Customers/triplea.png";
 import marymount from "../assets/images/Customers/marymount.png";
 import parrish from "../assets/images/Customers/parrish.png";
 import unibol from "../assets/images/Customers/unibol.png";
+import gases from "../assets/images/Customers/gases.png";
 
 
 export const gallery = [{
@@ -72,4 +73,5 @@ export const customers = [
     marymount,
     parrish,
     unibol,
+    gases
 ];
