@@ -11,7 +11,7 @@ export const programsList = [{
     {
         id: 2,
         programName: "Manejo y recuperacion de la fatiga en medios empresariales",
-        description: "Estos programas están enfocados en trabajadores con turnos nocturnos con la finalidad de ayudarlos en el desarrollo de una vida saludable a pesar de las restricciones que puedan presentar debido a sus horarios de trabajo.",
+        description: "Estos programas están enfocados en trabajadores con turnos nocturnos con la finalidad de ayudarlos en el desarrollo de una vida saludable a pesar de las restricciones que puedan presentar debido a sus horarios laborales.",
         img: "https://images.unsplash.com/photo-1554574004-b5ed96682e9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
@@ -24,25 +24,25 @@ export const programsList = [{
         id: 4,
         programName: "Liderazgo",
         description: `Es un programa de enfoque constructivista, donde el objetivo es poder identificar las fortalezas y debilidades que tenemos como lideres tanto a nivel grupal como individual, 
-        buscando potenciarlas a través de actividades y ejercicios`,
+        buscando potenciarlas a través de ejercicios y actividades.`,
         img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 5,
         programName: "Trabajo en equipo",
-        description: `Es un programa que por medio de diversas activdades maximiza la capacidad del trabajo en grupo, mejorando el rendimiento y la productivdade en ámbitos laborales.`,
+        description: `Es un programa que por medio de diversas actvidades maximiza la capacidad del trabajo en grupo, mejorando el rendimiento y la productivdade en ámbitos laborales.`,
         img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
     },
     {
         id: 6,
         programName: "Manejo de la ansiedad y el estrés",
-        description: `Es un programa diseñado para la identificación de las causas de la ansiedad y el estrés, guiando a través de vicencias, técnicas para que se pueda tener control de estos.`,
+        description: `Es un programa diseñado para la identificación de las causas de la ansiedad y el estrés, guiando a través de vivencias, técnicas para que se pueda tener control sobre estos.`,
         img: "https://images.unsplash.com/photo-1621252179027-94459d278660?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 7,
         programName: "Atención y servicio al cliente",
-        description: "Tiene como objetivo definir estrategias a seguir para conseguir un logro en particular el cual es  la satisfacción de los clientes de la empresa en cuestión.",
+        description: "Es un programa que tiene como objetivo definir estrategias para conseguir un logro en particular;  la satisfacción de los clientes de la empresa en cuestión.",
         img: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
 ];
@@ -59,7 +59,7 @@ export const psicoeducativos = [{
         id: 2,
         programName: "Orientación socio ocupacional",
         description: `Es un programa individual o grupal 
-        para jóvenes próximos a terminar su vida escolar y facilitarle 
+        para jóvenes próximos a terminar su vida escolar, facilitando
         la toma de decisiones para su vida académica y profesional.`,
         img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     },
@@ -73,7 +73,7 @@ export const psicoeducativos = [{
     {
         id: 4,
         programName: "Preparación a entrevistas",
-        description: `Es un programa corto cuyo objetivo es guiar a la person, a través de ejercicios, a tener un conocimiento
+        description: `Es un programa corto cuyo objetivo es guiar a la persona, mediante ejercicios, a tener un conocimiento
         más profundo de sí mismo para que así pueda expresarse con fluidez al asistir a una entrevista.`,
         img: "https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     },
