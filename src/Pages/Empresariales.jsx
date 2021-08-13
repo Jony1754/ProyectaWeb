@@ -6,7 +6,7 @@ export default function Empresariales() {
   return (
     <main className="empresariales">
       <h2 className="BigTitle">
-        PROGRAMAS <span> EMPRESARIALES</span>
+        PROGRAMAS <span> EMPRESARIALES Y PSICOEDUCATIVOS</span>
       </h2>
       <section className="programs--container">
         {programsList.map((program) => (

@@ -16,7 +16,7 @@ export default function About() {
         que permiten, a través del autoconocimiento, explotar el potencial de cada
         ser humano mediante el diagnóstico, diseño, coordinación y ejecución
         de programas de intervención. Tenemos <span>15 años</span> de
-        experiencia y desde la <span>psicología clínica y educativa</span> hemos aprendido la importancia
+        experiencia y desde la <span>psicología clínica y educativa</span>, hemos aprendido la importancia
         de la salud emocional y cómo de esta, depende el comportamiento y
         desarrollo de las personas en diferentes contextos; logramos
         evidenciar que con la aceptación de quienes somos, se

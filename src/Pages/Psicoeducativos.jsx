@@ -7,7 +7,7 @@ export default function Psicoeducativos() {
   return (
     <main className="empresariales">
       <h2 className="BigTitle">
-        PROGRAMAS <span> PSICOEDUCATIVOS</span>
+        PROGRAMAS <span>PSICOTERAPÉUTICOS</span>
       </h2>
 
       <section className="programs--container">

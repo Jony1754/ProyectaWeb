@@ -38,7 +38,7 @@ export default function FeatureContainer() {
             <span>empresariales y psicoeducativos</span>
           </h3>
           <p>
-          Son programas psicoeducativos diseñados para la intervención y la mejora de la salud cognitiva 
+          Son <span>programas</span> psicoeducativos diseñados para la <span>intervención y la mejora</span> de la salud cognitiva 
           y emocional en los ambientes laborales y/o institucionales.
           </p>
         </div>

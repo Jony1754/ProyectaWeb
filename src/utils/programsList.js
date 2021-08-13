@@ -45,10 +45,8 @@ export const programsList = [{
         description: "Es un programa que tiene como objetivo definir estrategias para conseguir un logro en particular;  la satisfacción de los clientes de la empresa en cuestión.",
         img: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
-];
-
-export const psicoeducativos = [{
-        id: 1,
+    {
+        id: 8,
         programName: "Charlas, seminarios y talleres",
         description: `Son actividades formativas e informativas de corta duración que tienen como objetivo educar en los siguientes temas:
         comunicaión asertiva, manejo de estrés, manejo del duelo,
@@ -56,7 +54,7 @@ export const psicoeducativos = [{
         img: "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
-        id: 2,
+        id: 9,
         programName: "Orientación socio ocupacional",
         description: `Es un programa individual o grupal 
         para jóvenes próximos a terminar su vida escolar, facilitando
@@ -64,35 +62,37 @@ export const psicoeducativos = [{
         img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     },
     {
-        id: 3,
+        id: 10,
         programName: "Tertulia literaria",
         description: `Es una actividad enfocada en realizar analisis, mediante el uso de textos 
         literarios que se asocian a la forma en como nos comportamos en diversas situaciones.`,
         img: "https://images.pexels.com/photos/5940704/pexels-photo-5940704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
     {
-        id: 4,
+        id: 11,
         programName: "Preparación a entrevistas",
         description: `Es un programa corto cuyo objetivo es guiar a la persona, mediante ejercicios, a tener un conocimiento
         más profundo de sí mismo para que así pueda expresarse con fluidez al asistir a una entrevista.`,
         img: "https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     },
     {
-        id: 5,
+        id: 12,
         programName: "Cineforos",
         description: `Es una actividad que se realiza con el objetivo de, a través de películas o documentales,
         realizar análisis que se puedan asociar a situaciones o condiciones de salud emocional.`,
         img: "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
     },
     {
-        id: 6,
+        id: 13,
         programName: "Actividades outdoor",
         description: `Son actividades realizadas al aire libre cuya finalidad es
          realizar ejercicios autodiagnósticos a través de actividades lúdicas.`,
         img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     },
-    {
-        id: 7,
+];
+
+export const psicoeducativos = [{
+        id: 1,
         programName: "Fortalecimiento de la inteligencia emocional",
         description: `añadir descripción.`,
         img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
