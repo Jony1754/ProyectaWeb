@@ -22,11 +22,10 @@ export default function Psicoeducativos() {
       </section>
       <section className="programs--description">
         Son procesos donde, a través de diversas herramientas terapéuticas, nos
-        facilitan el tratamiento de conflictos con el objetivo de que las personas
-        logren gozar de un mayor estado de bienestar emocional. En estos
+        facilitan el tratamiento de conflictos con el objetivo ofrecer a las personas un mayor estado bienestar personal. En estos
         procedimientos también se trabaja la reconstrucción de hábitos, la identificación del porqué de nuestros comportamientos y cómo reestructurarlos
         por acciones más saludables que permitan un desarrollo integro de la persona e impulsen el potencial humano. 
       </section>
-    </main>
+    </main> 
   );
 }

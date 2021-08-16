@@ -1,4 +1,6 @@
-import orientacion from "../assets/images/Programs/orientacion.jpg"
+import orientacion from "../assets/images/Programs/orientacion.jpg";
+import cansancio from "../assets/images/Programs/cansancio.jpg";
+import retiro from "../assets/images/Programs/juventud.jpg";
 
 
 export const programsList = [{
@@ -6,13 +8,13 @@ export const programsList = [{
         programName: "Preparación para la jubilación",
         description: `Busca apoyar a los trabajadores que están próximos a la etapa de jubilación, brindando estrategias 
         y herramientas para construir un nuevo proyecto de vida.`,
-        img: "https://images.unsplash.com/photo-1572567981652-499b7f8ef218?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+        img: "https://images.unsplash.com/photo-1527525591638-6fa607ae2f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80",
     },
     {
         id: 2,
         programName: "Manejo y recuperacion de la fatiga en medios empresariales",
         description: "Estos programas están enfocados en trabajadores con turnos nocturnos con la finalidad de ayudarlos en el desarrollo de una vida saludable a pesar de las restricciones que puedan presentar debido a sus horarios laborales.",
-        img: "https://images.unsplash.com/photo-1554574004-b5ed96682e9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        img: "https://images.unsplash.com/photo-1553690300-93871c6a6654?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 3,
@@ -30,13 +32,13 @@ export const programsList = [{
     {
         id: 5,
         programName: "Trabajo en equipo",
-        description: `Es un programa que por medio de diversas actvidades maximiza la capacidad del trabajo en grupo, mejorando el rendimiento y la productivdade en ámbitos laborales.`,
+        description: `Es un programa que por medio de diversas actvidades maximiza la capacidad del trabajo en grupo, mejorando el rendimiento y la productividad en ámbitos laborales.`,
         img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
     },
     {
         id: 6,
         programName: "Manejo de la ansiedad y el estrés",
-        description: `Es un programa diseñado para la identificación de las causas de la ansiedad y el estrés, guiando a través de vivencias, técnicas para que se pueda tener control sobre estos.`,
+        description: `Es un programa diseñado para la identificación de las causas de la ansiedad y el estrés a través de diveras técnicas y herramientas para que se pueda tener un manejo adecuado sobre estos.`,
         img: "https://images.unsplash.com/photo-1621252179027-94459d278660?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
@@ -59,14 +61,14 @@ export const programsList = [{
         description: `Es un programa individual o grupal 
         para jóvenes próximos a terminar su vida escolar, facilitando
         la toma de decisiones para su vida académica y profesional.`,
-        img: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        img: "https://images.unsplash.com/photo-1514369118554-e20d93546b30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
     },
     {
         id: 10,
         programName: "Tertulia literaria",
         description: `Es una actividad enfocada en realizar analisis, mediante el uso de textos 
         literarios que se asocian a la forma en como nos comportamos en diversas situaciones.`,
-        img: "https://images.pexels.com/photos/5940704/pexels-photo-5940704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 11,
@@ -87,7 +89,13 @@ export const programsList = [{
         programName: "Actividades outdoor",
         description: `Son actividades realizadas al aire libre cuya finalidad es
          realizar ejercicios autodiagnósticos a través de actividades lúdicas.`,
-        img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        img: "https://images.unsplash.com/photo-1550096141-1b21804f1812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    },
+    {
+        id: 14,
+        programName: "Grupos focales",
+        description: `añadir descripción`,
+        img: ""
     },
 ];
 
@@ -97,5 +105,40 @@ export const psicoeducativos = [{
         description: `añadir descripción.`,
         img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
     },
-
+    {
+        id: 2,
+        programName: "Psicoterapia para niños y adolescentes",
+        description: `añadir descripción`,
+        img: ""
+    },
+    {
+        id: 3,
+        programName: "Psicoterapia para adultos",
+        description: `añadir descripción`,
+        img: ""
+    },
+    {
+        id: 4,
+        programName: "Psicoterapia grupal",
+        description: `añadir descripción`,
+        img: ""
+    },
+    {
+        id: 5,
+        programName: "Psicoterapia individual",
+        description: `añadir descripción`,
+        img: ""
+    },
+    {
+        id: 6,
+        programName: "Psicoterapia para parejas",
+        description: `añadir descripción`,
+        img: ""
+    },
+    {
+        id: 7,
+        programName: "Psicoterapia en grupo de apoyo",
+        description: `añadir descripción`,
+        img: ""
+    },
 ];
