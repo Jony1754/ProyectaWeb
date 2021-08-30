@@ -1,7 +1,11 @@
-import orientacion from "../assets/images/Programs/orientacion.jpg";
-import cansancio from "../assets/images/Programs/cansancio.jpg";
-import retiro from "../assets/images/Programs/juventud.jpg";
-
+import emocional from "../assets/images/Programs/Imagen8.jpg";
+import pskids from "../assets/images/Programs/Imagen7.jpg";
+import psadults from "../assets/images/Programs/Imagen6.jpg";
+import psone from "../assets/images/Programs/Imagen5.jpg";
+import psgroup from "../assets/images/Programs/Imagen4.jpg";
+import pscouple from "../assets/images/Programs/Imagen3.jpg";
+import pssupport from "../assets/images/Programs/Imagen2.jpg";
+import focalgroup from "../assets/images/Programs/Imagen1.jpg";
 
 export const programsList = [{
         id: 1,
@@ -102,43 +106,50 @@ export const programsList = [{
 export const psicoeducativos = [{
         id: 1,
         programName: "Fortalecimiento de la inteligencia emocional",
-        description: `añadir descripción.`,
-        img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        description: `Programa que busca el mejoramiento del manejo/control de las emociones, calidad de las relaciones interpersonales y solución de conflictos.`,
+        img: emocional,
     },
     {
         id: 2,
         programName: "Psicoterapia para niños y adolescentes",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que ofrece acompañamiento a niños y adolescentes que presenten dificultades en su comportamiento o en el manejo de emociones, haciendo uso de diversas técnicas y métodos, entre estos la realización de actividades lúdicas como: dibujo, juegos y manualidades.`,
+        img: pskids,
     },
     {
         id: 3,
         programName: "Psicoterapia para adultos",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que busca identificar las causas de un conflicto, analizarlo y hallar las herramientas necesarias para solucionarlo.`,
+        img: psadults,
     },
     {
         id: 4,
         programName: "Psicoterapia grupal",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que, durante distintas sesiones, guía a grupos de personas a identificar y solucionar los distintos conflictos que existan dentro de este circulo, mejorando así la comunicación y el trabajo en equipo.`,
+        img: psgroup,
     },
     {
         id: 5,
         programName: "Psicoterapia individual",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que ofrece un proceso guiado que, utilizando el diálogo ayuda al individuo a conocerse a si mismo, orientandolo en el entendimiento de sus pensamientos, emociones y sensaciones.`,
+        img: psone,
     },
     {
         id: 6,
         programName: "Psicoterapia para parejas",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que ofrece un espacio abierto de diálogo donde la pareja puede comunicarse y, con la guía de un profesional, identificar y solucionar los conflictos que se presenten dentro de la relación. Mejorando la confianza, la asertividad y la expresión de emociones.`,
+        img: pscouple,
+
     },
     {
         id: 7,
         programName: "Psicoterapia en grupo de apoyo",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que buscar realizar reuniones periódicas entre individuos en condiciones similares. Esto con el fin de abrir un espacio de comunicación e intercambio de ideas que con el acompañamiento del profesional, pueden llegar a dar soluciones a problemas individuales de los participantes.`,
+        img: pssupport,
+    },
+    {
+        id: 8,
+        programName: "Grupos focales",
+        description: `Es un programa que utiliza los foros abiertos para el intercambio de información, permitiendo conocer más de distintos temas. Mejorando el desarrollo personal y empresarial a futuro.`,
+        img: focalgroup,
     },
 ];
