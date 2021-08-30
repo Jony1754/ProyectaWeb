@@ -48,7 +48,7 @@ export const programsList = [{
     {
         id: 7,
         programName: "Atención y servicio al cliente",
-        description: "Es un programa que tiene como objetivo definir estrategias para conseguir un logro en particular;  la satisfacción de los clientes de la empresa en cuestión.",
+        description: "Un programa que se centra en dar pautas a cerca de la resolución de problemas, el manejo de quejas y el soporte técnico también se brinda orientación en torno a practicas relacionadas a ciclo de ventas, donde el objetivo es asegurar que se cumplan las necesidades y expectativas del consumidor.",
         img: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
     {
@@ -98,8 +98,8 @@ export const programsList = [{
     {
         id: 14,
         programName: "Grupos focales",
-        description: `añadir descripción`,
-        img: ""
+        description: `Es un programa que utiliza los foros abiertos para el intercambio de información, permitiendo conocer más de distintos temas. Mejorando el desarrollo personal y empresarial a futuro.`,
+        img: focalgroup,
     },
 ];
 
@@ -146,10 +146,5 @@ export const psicoeducativos = [{
         description: `Es un programa que buscar realizar reuniones periódicas entre individuos en condiciones similares. Esto con el fin de abrir un espacio de comunicación e intercambio de ideas que con el acompañamiento del profesional, pueden llegar a dar soluciones a problemas individuales de los participantes.`,
         img: pssupport,
     },
-    {
-        id: 8,
-        programName: "Grupos focales",
-        description: `Es un programa que utiliza los foros abiertos para el intercambio de información, permitiendo conocer más de distintos temas. Mejorando el desarrollo personal y empresarial a futuro.`,
-        img: focalgroup,
-    },
+
 ];
