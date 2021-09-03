@@ -1,9 +1,9 @@
 import React from "react";
-import { psicoeducativos } from "../utils/programsList";
+import { psicoterapeuticos } from "../utils/programsList";
 import Program from "../Components/Program";
 import "../assets/styles/Programs.scss";
 
-export default function Psicoeducativos() {
+export default function Psicoterapeuticos() {
   return (
     <main className="empresariales">
       <h2 className="BigTitle">
@@ -11,7 +11,7 @@ export default function Psicoeducativos() {
       </h2>
 
       <section className="programs--container">
-        {psicoeducativos.map((program) => (
+        {psicoterapeuticos.map((program) => (
           <Program
             image={program.img}
             name={program.programName}

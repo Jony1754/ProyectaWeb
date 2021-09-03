@@ -4,7 +4,8 @@ import "../assets/styles/Main.scss";
 import badge from "../assets/icons/person_badge.svg";
 import logo from "../assets/images/logo.svg";
 import heroImg from "../assets/images/landing.svg";
-import { customers } from "../utils/gallery";
+import { customers,gallery_exp } from "../utils/gallery";
+import ImageCard from "../Components/ImageCard";
 export default function Landing() {
   return (
     <>
@@ -51,6 +52,18 @@ export default function Landing() {
           <span>SERVICIOS</span> QUE OFRECEMOS
         </h2>
         <FeatureContainer />
+
+        <h2 className="BigTitle">
+          <span>NUESTRAS</span> EXPERIENCIAS
+        </h2>
+
+        <br />
+      <div className="Gallery">
+        {gallery_exp.map((photo) => {
+          return <ImageCard {...photo} />;
+        })}
+        <br />
+      </div>
       </main>
     </>
   );

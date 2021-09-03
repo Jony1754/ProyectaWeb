@@ -29,8 +29,7 @@ export const programsList = [{
     {
         id: 4,
         programName: "Liderazgo",
-        description: `Es un programa de enfoque constructivista, donde el objetivo es poder identificar las fortalezas y debilidades que tenemos como lideres tanto a nivel grupal como individual, 
-        buscando potenciarlas a través de ejercicios y actividades.`,
+        description: `Es un programa de enfoque constructivista, donde el objetivo es poder identificar las fortalezas y debilidades que tenemos como lideres tanto a nivel grupal como individual, buscando potenciarlas a través de ejercicios que apunten al objetivo.`,
         img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
     {
@@ -48,15 +47,13 @@ export const programsList = [{
     {
         id: 7,
         programName: "Atención y servicio al cliente",
-        description: "Un programa que se centra en dar pautas a cerca de la resolución de problemas, el manejo de quejas y el soporte técnico también se brinda orientación en torno a practicas relacionadas a ciclo de ventas, donde el objetivo es asegurar que se cumplan las necesidades y expectativas del consumidor.",
+        description: "Un programa que se centra en dar pautas a cerca de la resolución de problemas, el manejo de quejas y el soporte técnico también se brinda orientación en torno a prácticas relacionadas a ciclo de atención y servicios al cliente, donde el objetivo es asegurar que se cumplan las necesidades y expectativas del consumidor.",
         img: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 8,
         programName: "Charlas, seminarios y talleres",
-        description: `Son actividades formativas e informativas de corta duración que tienen como objetivo educar en los siguientes temas:
-        comunicaión asertiva, manejo de estrés, manejo del duelo,
-        restructuración de hábitos, adaptación al cambio y reestructuración del pensamiento negativo.`,
+        description: `Es un programa de enfoque constructivista, donde el objetivo es poder identificar las fortalezas y debilidades que tenemos como lideres tanto a nivel grupal como individual, buscando potenciarlas a través de ejercicios que apunten al objetivo.`,
         img: "https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
@@ -91,59 +88,58 @@ export const programsList = [{
     {
         id: 13,
         programName: "Actividades outdoor",
-        description: `Son actividades realizadas al aire libre cuya finalidad es
-         realizar ejercicios autodiagnósticos a través de actividades lúdicas.`,
+        description: `Son actividades realizadas al aire libre cuya finalidad es realizar ejercicios autodiagnósticos a través de actividades lúdicas esto va bajo el enfoque del aprendizaje experimental.`,
         img: "https://images.unsplash.com/photo-1550096141-1b21804f1812?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     },
     {
         id: 14,
         programName: "Grupos focales",
-        description: `Es un programa que utiliza los foros abiertos para el intercambio de información, permitiendo conocer más de distintos temas. Mejorando el desarrollo personal y empresarial a futuro.`,
+        description: `Es una herramienta evaluativa que se utiliza de manera abierta para el intercambio de información, permitiendo conocer más de los temas que se quieren profundizar arrojando un resultado cuantitativo y cualitativo.`,
         img: focalgroup,
     },
 ];
 
-export const psicoeducativos = [{
+export const psicoterapeuticos = [{
         id: 1,
         programName: "Fortalecimiento de la inteligencia emocional",
-        description: `Programa que busca el mejoramiento del manejo/control de las emociones, calidad de las relaciones interpersonales y solución de conflictos.`,
+        description: `Herramienta que busca el mejoramiento del manejo/control de las emociones, calidad de las relaciones interpersonales y solución de conflictos.`,
         img: emocional,
     },
     {
         id: 2,
         programName: "Psicoterapia para niños y adolescentes",
-        description: `Es un programa que ofrece acompañamiento a niños y adolescentes que presenten dificultades en su comportamiento o en el manejo de emociones, haciendo uso de diversas técnicas y métodos, entre estos la realización de actividades lúdicas como: dibujo, juegos y manualidades.`,
+        description: `Es una herramienta que ofrece acompañamiento a niños y adolescentes que presenten dificultades en su comportamiento o en el manejo de emociones, haciendo uso de diversas técnicas y métodos, entre estos la realización de actividades lúdicas como: dibujo, juegos y manualidades.`,
         img: pskids,
     },
     {
         id: 3,
         programName: "Psicoterapia para adultos",
-        description: `Es un programa que busca identificar las causas de un conflicto, analizarlo y hallar las herramientas necesarias para solucionarlo.`,
+        description: `Es una herramienta que busca identificar las causas de un conflicto, analizarlo y hallar las herramientas necesarias para solucionarlo.`,
         img: psadults,
     },
     {
         id: 4,
         programName: "Psicoterapia grupal",
-        description: `Es un programa que, durante distintas sesiones, guía a grupos de personas a identificar y solucionar los distintos conflictos que existan dentro de este circulo, mejorando así la comunicación y el trabajo en equipo.`,
+        description: `Es una herramienta que, durante distintas sesiones, guía a grupos de personas a identificar y solucionar los distintos conflictos que existan dentro de este circulo, mejorando así la comunicación y el trabajo en equipo.`,
         img: psgroup,
     },
     {
         id: 5,
         programName: "Psicoterapia individual",
-        description: `Es un programa que ofrece un proceso guiado que, utilizando el diálogo ayuda al individuo a conocerse a si mismo, orientandolo en el entendimiento de sus pensamientos, emociones y sensaciones.`,
+        description: `Es una herramienta que ofrece un proceso guiado que, utilizando el diálogo ayuda al individuo a conocerse a si mismo, orientandolo en el entendimiento de sus pensamientos, emociones y sensaciones.`,
         img: psone,
     },
     {
         id: 6,
         programName: "Psicoterapia para parejas",
-        description: `Es un programa que ofrece un espacio abierto de diálogo donde la pareja puede comunicarse y, con la guía de un profesional, identificar y solucionar los conflictos que se presenten dentro de la relación. Mejorando la confianza, la asertividad y la expresión de emociones.`,
+        description: `Es una herramienta que ofrece un espacio abierto de diálogo donde la pareja puede comunicarse y, con la guía de un profesional, identificar y solucionar los conflictos que se presenten dentro de la relación. Mejorando la confianza, la asertividad y la expresión de emociones.`,
         img: pscouple,
 
     },
     {
         id: 7,
         programName: "Psicoterapia en grupo de apoyo",
-        description: `Es un programa que buscar realizar reuniones periódicas entre individuos en condiciones similares. Esto con el fin de abrir un espacio de comunicación e intercambio de ideas que con el acompañamiento del profesional, pueden llegar a dar soluciones a problemas individuales de los participantes.`,
+        description: `Es una herramienta que buscar realizar reuniones periódicas entre individuos en condiciones similares. Esto con el fin de abrir un espacio de comunicación e intercambio de ideas que con el acompañamiento del profesional, pueden llegar a dar soluciones a problemas individuales de los participantes.`,
         img: pssupport,
     },
 

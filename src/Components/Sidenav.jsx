@@ -46,7 +46,7 @@ export default function Sidenav() {
             to="/programas/psicoeducativos"
             onClick={closeNav}
           >
-            Programas psicoeducativos
+            Programas Psicoterapéuticos
           </NavLink>
         </li>
         <li>
@@ -56,7 +56,7 @@ export default function Sidenav() {
             to="/programas/empresariales"
             onClick={closeNav}
           >
-            Programas empresariales
+            Programas Empresariales y Psicoeducativos
           </NavLink>
         </li>
         <li>

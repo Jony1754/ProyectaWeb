@@ -6,6 +6,28 @@ import fatiga from "../assets/images/Gallery/fatiga_1.JPG";
 import fatiga2 from "../assets/images/Gallery/fatiga_2.JPG";
 import fatiga3 from "../assets/images/Gallery/fatiga_3.JPG";
 
+import img1 from "../assets/images/Gallery_exp/img1.jpg";
+import img2 from "../assets/images/Gallery_exp/img2.jpg";
+import img3 from "../assets/images/Gallery_exp/img3.jpg";
+import img4 from "../assets/images/Gallery_exp/img4.jpg";
+import img5 from "../assets/images/Gallery_exp/img5.jpg";
+import img6 from "../assets/images/Gallery_exp/img6.jpg";
+import img7 from "../assets/images/Gallery_exp/img7.jpg";
+import img8 from "../assets/images/Gallery_exp/img8.jpg";
+import img9 from "../assets/images/Gallery_exp/img9.jpg";
+import img10 from "../assets/images/Gallery_exp/img10.jpg";
+import img11 from "../assets/images/Gallery_exp/img11.jpg";
+import img12 from "../assets/images/Gallery_exp/img12.jpg";
+import img13 from "../assets/images/Gallery_exp/img13.jpg";
+import img14 from "../assets/images/Gallery_exp/img14.jpg";
+import img15 from "../assets/images/Gallery_exp/img15.jpg";
+import img16 from "../assets/images/Gallery_exp/img16.jpg";
+import img17 from "../assets/images/Gallery_exp/img17.jpg";
+import img18 from "../assets/images/Gallery_exp/img18.jpg";
+import img19 from "../assets/images/Gallery_exp/img19.jpg";
+import img20 from "../assets/images/Gallery_exp/img20.jpg";
+
+
 import uninorte from "../assets/images/Customers/uni-logo-centered.svg";
 import promigas from "../assets/images/Customers/logo-promigas.png";
 import combarranquilla from "../assets/images/Customers/combarranquilla.png";
@@ -57,6 +79,91 @@ export const gallery = [{
         description: "Actividades guiadas para restaurar el bienestar corporal.",
         image: equipo,
     },
+];
+
+export const gallery_exp = [{
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img1,
+    },
+    {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img2,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img3,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img4,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img5,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img6,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img7,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img8,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img9,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img10,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img11,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img12,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img13,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img14,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img15,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img16,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img17,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img18,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img19,
+    }, {
+        title: "Añadir Titulo",
+        description: "añadir descripción",
+        image: img20,
+    },
+
 ];
 
 export const customers = [
