@@ -70,7 +70,7 @@ export default function About() {
       <hr className="Separator"></hr>
       
       <h2 className="BigTitle">
-        MANEJO DE <span>EMoCIONES</span>
+        MANEJO DE <span>EMOCIONES</span>
       </h2>
       <div className="Gallery">
         {gallery_manejo_recup.map((photo) => {
