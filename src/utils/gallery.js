@@ -1,32 +1,61 @@
-import cognitiva from "../assets/images/Gallery/cognitiva_1.JPG";
-import cognitiva2 from "../assets/images/Gallery/cognitiva_2.JPG";
-import cognitiva3 from "../assets/images/Gallery/cognitiva_4.JPG";
-import equipo from "../assets/images/Gallery/equipo_1.JPG";
-import fatiga from "../assets/images/Gallery/fatiga_1.JPG";
-import fatiga2 from "../assets/images/Gallery/fatiga_2.JPG";
-import fatiga3 from "../assets/images/Gallery/fatiga_3.JPG";
-
-import img1 from "../assets/images/Gallery_exp/img1.jpg";
-import img2 from "../assets/images/Gallery_exp/img2.jpg";
-import img3 from "../assets/images/Gallery_exp/img3.jpg";
-import img4 from "../assets/images/Gallery_exp/img4.jpg";
-import img5 from "../assets/images/Gallery_exp/img5.jpg";
-import img6 from "../assets/images/Gallery_exp/img6.jpg";
-import img7 from "../assets/images/Gallery_exp/img7.jpg";
-import img8 from "../assets/images/Gallery_exp/img8.jpg";
-import img9 from "../assets/images/Gallery_exp/img9.jpg";
-import img10 from "../assets/images/Gallery_exp/img10.jpg";
-import img11 from "../assets/images/Gallery_exp/img11.jpg";
-import img12 from "../assets/images/Gallery_exp/img12.jpg";
-import img13 from "../assets/images/Gallery_exp/img13.jpg";
-import img14 from "../assets/images/Gallery_exp/img14.jpg";
-import img15 from "../assets/images/Gallery_exp/img15.jpg";
-import img16 from "../assets/images/Gallery_exp/img16.jpg";
-import img17 from "../assets/images/Gallery_exp/img17.jpg";
-import img18 from "../assets/images/Gallery_exp/img18.jpg";
-import img19 from "../assets/images/Gallery_exp/img19.jpg";
-import img20 from "../assets/images/Gallery_exp/img20.jpg";
-
+import activ_apd_exp_1 from "../assets/images/Gallery/activ_apd_exp_1.jpg";
+import activ_apd_exp_2 from "../assets/images/Gallery/activ_apd_exp_2.jpg";
+import activ_apd_exp_3 from "../assets/images/Gallery/activ_apd_exp_3.jpg";
+import ansiedad_estres from "../assets/images/Gallery/ansiedad_estres_1.jpg";
+import autocuidado_1 from "../assets/images/Gallery/autocuidado_1.jpg";
+import construccion_eq_1 from "../assets/images/Gallery/construccion_eq_1.jpg";
+import construccion_eq_2 from "../assets/images/Gallery/construccion_eq_2.jpg";
+import cuidad_1 from "../assets/images/Gallery/cuidad_1.jpg";
+import cuidad_2 from "../assets/images/Gallery/cuidad_2.jpg";
+import emociones_sal_1 from "../assets/images/Gallery/emociones_sal_1.jpg";
+import eq_eff_1 from "../assets/images/Gallery/eq_eff_1.jpg";
+import inno_creat_1 from "../assets/images/Gallery/inno_creat_1.jpg";
+import int_emocional_1 from "../assets/images/Gallery/int_emocional_1.jpg";
+import involucrando_fml_1 from "../assets/images/Gallery/involucrando_fml_1.jpg";
+import involucrando_fml_2 from "../assets/images/Gallery/involucrando_fml_2.jpg";
+import involucrando_fml_3 from "../assets/images/Gallery/involucrando_fml_3.jpg";
+import liderazgo_jov_1 from "../assets/images/Gallery/liderazgo_jov_1.jpg";
+import liderazgo_confianza_1 from "../assets/images/Gallery/liderazgo_confianza_1.jpg";
+import liderazgo_confianza_2 from "../assets/images/Gallery/liderazgo_confianza_2.jpg";
+import liderazgo_confianza_3 from "../assets/images/Gallery/liderazgo_confianza_3.jpg";
+import liderazgo_confianza_4 from "../assets/images/Gallery/liderazgo_confianza_4.jpg";
+import manejo_estres_1 from "../assets/images/Gallery/manejo_estres_1.jpg";
+import manejo_estres_2 from "../assets/images/Gallery/manejo_estres_2.jpg";
+import manejo_estres_3 from "../assets/images/Gallery/manejo_estres_3.jpg";
+import manejo_estres_4 from "../assets/images/Gallery/manejo_estres_4.jpg";
+import manejo_estres_5 from "../assets/images/Gallery/manejo_estres_5.jpg";
+import manejo_estres_6 from "../assets/images/Gallery/manejo_estres_6.jpg";
+import manejor_fatiga_1 from "../assets/images/Gallery/manejor_fatiga_1.jpg";
+import manejor_fatiga_2 from "../assets/images/Gallery/manejor_fatiga_2.jpg";
+import manejor_fatiga_3 from "../assets/images/Gallery/manejor_fatiga_3.jpg";
+import nutricion_1 from "../assets/images/Gallery/nutricion_1.jpg";
+import Outdoor_eq_1 from "../assets/images/Gallery/Outdoor_eq_1.jpg";
+import Outdoor_eq_2 from "../assets/images/Gallery/Outdoor_eq_2.jpg";
+import Outdoor_eq_3 from "../assets/images/Gallery/Outdoor_eq_3.jpg";
+import Outdoor_retro_1 from "../assets/images/Gallery/Outdoor_retro_1.jpg";
+import paradigma_1 from "../assets/images/Gallery/paradigma_1.jpg";
+import prejubilados_1 from "../assets/images/Gallery/prejubilados_1.jpg";
+import prejubilados_2 from "../assets/images/Gallery/prejubilados_2.jpg";
+import prejubilados_3 from "../assets/images/Gallery/prejubilados_3.jpg";
+import prejubilados_4 from "../assets/images/Gallery/prejubilados_4.jpg";
+import prejubilados_sueños_1 from "../assets/images/Gallery/prejubilados_sueños_1.jpg";
+import prejubilados_sueños_2 from "../assets/images/Gallery/prejubilados_sueños_2.jpg";
+import recuperacion_cognitiva_1 from "../assets/images/Gallery/recuperacion_cognitiva_1.jpg";
+import recuperacion_cognitiva_2 from "../assets/images/Gallery/recuperacion_cognitiva_2.jpg";
+import recuperacion_cognitiva_3 from "../assets/images/Gallery/recuperacion_cognitiva_3.jpg";
+import recuperacion_fatiga_1 from "../assets/images/Gallery/recuperacion_fatiga_1.jpg";
+import recuperacion_fatiga_noche_1 from "../assets/images/Gallery/recuperacion_fatiga_noche_1.jpg";
+import trabajo_eq_1 from "../assets/images/Gallery/trabajo_eq_1.jpg";
+import trabajo_eq_2 from "../assets/images/Gallery/trabajo_eq_2.jpg";
+import trabajo_eq_3 from "../assets/images/Gallery/trabajo_eq_3.jpg";
+import trabajo_eq_4 from "../assets/images/Gallery/trabajo_eq_4.jpg";
+import trabajo_eq_5 from "../assets/images/Gallery/trabajo_eq_5.jpg";
+import trabajo_eq_6 from "../assets/images/Gallery/trabajo_eq_6.jpg";
+import trabajo_eq_exp_1 from "../assets/images/Gallery/trabajo_eq_exp_1.jpg";
+import trabajo_eq_tpeff_1 from "../assets/images/Gallery/trabajo_eq_tpeff_1.jpg";
+import trabajo_eq_tpeff_2 from "../assets/images/Gallery/trabajo_eq_tpeff_2.jpg";
+import trabajo_eq_tpeff_3 from "../assets/images/Gallery/trabajo_eq_tpeff_3.jpg";
+import trabajo_eq_tpeff_4 from "../assets/images/Gallery/trabajo_eq_tpeff_4.jpg";
 
 import uninorte from "../assets/images/Customers/uni-logo-centered.svg";
 import promigas from "../assets/images/Customers/logo-promigas.png";
@@ -44,126 +73,248 @@ import unibol from "../assets/images/Customers/unibol.png";
 import gases from "../assets/images/Customers/gases.png";
 
 
-export const gallery = [{
-        title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
-        image: cognitiva,
+export const gallery_cre_emo_auto = [{
+        title: "Hábitos de autocuidado",
+        image: autocuidado_1,
     },
     {
-        title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
-        image: cognitiva2,
+        title: "Emociones saludables",
+        image: emociones_sal_1,
     },
     {
-        title: "Recuperacion cognitiva",
-        description: "Actividades guiadas para restaurar la sinapsis cerebral.",
-        image: cognitiva3,
+        title: "Inteligecia emocional",
+        image: int_emocional_1,
     },
     {
-        title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal.",
-        image: fatiga,
+        title: "Involucrando familia",
+        image: involucrando_fml_1,
     },
     {
-        title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal.",
-        image: fatiga2,
+        title: "Involucrando familia",
+        image: involucrando_fml_2,
     },
     {
-        title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal.",
-        image: fatiga3,
+        title: "Involucrando familia",
+        image: involucrando_fml_3,
     },
     {
-        title: "Manejo de la fatiga",
-        description: "Actividades guiadas para restaurar el bienestar corporal.",
-        image: equipo,
+        title: "Nutrición para el mejoramiento de la calidad de vida",
+        image: nutricion_1,
+    },
+    {
+        title: "El cuidado del otro",
+        image: cuidad_1,
+    },
+    {
+        title: "El cuidado del otro",
+        image: cuidad_2,
+    },
+
+];
+
+export const gallery_lider = [{
+        title: "Innovación y creatividad",
+        image: inno_creat_1,
+    },
+    {
+        title: "Liderazgo-confiando en el otro",
+        image: liderazgo_confianza_1,
+    },
+    {
+        title: "Liderazgo-confiando en el otro",
+        image: liderazgo_confianza_2,
+    },
+    {
+        title: "Liderazgo-confiando en el otro",
+        image: liderazgo_confianza_3,
+    },
+    {
+        title: "Liderazgo-confiando en el otro",
+        image: liderazgo_confianza_4,
+    },
+    {
+        title: "Liderazgo para jóvenes",
+        image: liderazgo_jov_1,
+    },
+    {
+        title: "Actividades de aprendizaje experimental",
+        image: activ_apd_exp_1,
+    },
+    {
+        title: "Actividades de aprendizaje experimental",
+        image: activ_apd_exp_2,
+    },
+    {
+        title: "Actividades de aprendizaje experimental",
+        image: activ_apd_exp_3,
+    },
+    {
+        title: "Cambio de paradigmas",
+        image: paradigma_1,
+    }
+
+];
+
+export const gallery_prejubilados = [{
+        title: "Prejubilados cierre del año",
+        image: prejubilados_1,
+    },
+    {
+        title: "Prejubilados cambio de paradigmas",
+        image: prejubilados_2,
+    },
+    {
+        title: "Prejubilados",
+        image: prejubilados_3,
+    },
+    {
+        title: "Prejubilados",
+        image: prejubilados_4,
+    },
+    {
+        title: "Prejubilados construyendo sueños",
+        image: prejubilados_sueños_1,
+    },
+    {
+        title: "Prejubilados construyendo sueños",
+        image: prejubilados_sueños_2,
     },
 ];
 
-export const gallery_exp = [{
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img1,
+export const gallery_equipos = [{
+        title: "Trabajo en equipo",
+        image: trabajo_eq_1,
     },
     {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img2,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img3,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img4,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img5,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img6,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img7,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img8,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img9,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img10,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img11,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img12,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img13,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img14,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img15,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img16,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img17,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img18,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img19,
-    }, {
-        title: "Añadir Titulo",
-        description: "añadir descripción",
-        image: img20,
+        title: "Trabajo en equipo",
+        image: trabajo_eq_2,
     },
+    {
+        title: "Trabajo en equipo",
+        image: trabajo_eq_3,
+    },
+    {
+        title: "Trabajo en equipo",
+        image: trabajo_eq_4,
+    },
+    {
+        title: "Trabajo en equipo",
+        image: trabajo_eq_5,
+    },
+    {
+        title: "Trabajo en equipo",
+        image: trabajo_eq_6,
+    },
+    {
+        title: "Trabajo en equipo a través de aprendizaje experimental",
+        image: trabajo_eq_exp_1,
+    },
+    {
+        title: "Trabajo en equipo y manejo de tiempos eficientes",
+        image: trabajo_eq_tpeff_1,
+    },
+    {
+        title: "Trabajo en equipo y manejo de tiempos eficientes",
+        image: trabajo_eq_tpeff_2,
+    },
+    {
+        title: "Trabajo en equipo y manejo de tiempos eficientes",
+        image: trabajo_eq_tpeff_3,
+    },
+    {
+        title: "Trabajo en equipo y manejo de tiempos eficientes",
+        image: trabajo_eq_tpeff_4,
+    },
+    {
+        title: "Equipos altamentes eficientes",
+        image: eq_eff_1,
+    },
+    {
+        title: "Construyendo equipos altamente eficientes",
+        image: construccion_eq_1,
+    },
+    {
+        title: "Construyendo equipos altamente eficientes",
+        image: construccion_eq_2,
+    },
+    {
+        title: "Outdoor para el trabajo en equipo",
+        image: Outdoor_eq_1,
+    },
+    {
+        title: "Outdoor para el trabajo en equipo",
+        image: Outdoor_eq_2,
+    },
+    {
+        title: "Outdoor para el trabajo en equipo",
+        image: Outdoor_eq_3,
+    },
+    {
+        title: "Retroalimentación de actividades outdoor",
+        image: Outdoor_retro_1,
+    },
+];
 
+export const gallery_manejo_recup = [{
+        title: "Manejo de la fatiga",
+        image: manejor_fatiga_1,
+    },
+    {
+        title: "Manejo de la fatiga",
+        image: manejor_fatiga_2,
+    },
+    {
+        title: "Manejo de la fatiga",
+        image: manejor_fatiga_3,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_1,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_2,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_3,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_4,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_5,
+    },
+    {
+        title: "Manejo del estrés",
+        image: manejo_estres_6,
+    },
+    {
+        title: "Recuperación cognitiva",
+        image: recuperacion_cognitiva_1,
+    },
+    {
+        title: "Recuperación cognitiva",
+        image: recuperacion_cognitiva_2,
+    },
+    {
+        title: "Recuperación cognitiva",
+        image: recuperacion_cognitiva_3,
+    },
+    {
+        title: "Recuperación de la fatiga",
+        image: recuperacion_fatiga_1,
+    },
+    {
+        title: "Recuperación de la fatiga para trabajadores nocturnos",
+        image: recuperacion_fatiga_noche_1,
+    },
+    {
+        title: "Programa para la ansiedad y el manejo del estrés",
+        image: ansiedad_estres,
+    },
 ];
 
 export const customers = [

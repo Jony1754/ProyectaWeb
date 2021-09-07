@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/About.scss";
 import "../assets/styles/ImageCard.scss";
 import ImageCard from "../Components/ImageCard";
-import { gallery } from "../utils/gallery";
+import { gallery, gallery_cre_emo_auto, gallery_equipos, gallery_lider, gallery_manejo_recup, gallery_prejubilados } from "../utils/gallery";
 export default function About() {
   return (
     <main className="about-us">
@@ -23,13 +23,63 @@ export default function About() {
         logra un crecimiento y fortalecimiento de los <span>potenciales</span> en el momento que se aceptan realidades. 
         De esta forma, se evidencia un mejoramiento de la calidad de vida.
       </p>
+
       <br />
+      <h2 className="BigTitle">
+      CRECIMIENTO <span>EMOCIONAL Y AUTOCUIDADO</span> 
+      </h2>
       <div className="Gallery">
-        {gallery.map((photo) => {
+        {gallery_cre_emo_auto.map((photo) => {
           return <ImageCard {...photo} />;
         })}
         <br />
       </div>
+      <hr className="Separator"></hr>
+
+      <h2 className="BigTitle">
+        LIDERAZGO
+      </h2>
+      <div className="Gallery">
+        {gallery_lider.map((photo) => {
+          return <ImageCard {...photo} />;
+        })}
+        <br />
+      </div>
+      <hr className="Separator"></hr>
+
+      <h2 className="BigTitle">
+        PREJUBILADOS
+      </h2>
+      <div className="Gallery">
+        {gallery_prejubilados.map((photo) => {
+          return <ImageCard {...photo} />;
+        })}
+        <br />
+      </div>
+      <hr className="Separator"></hr>
+
+      <h2 className="BigTitle">
+        EQUIPOS
+      </h2>
+      <div className="Gallery">
+        {gallery_equipos.map((photo) => {
+          return <ImageCard {...photo} />;
+        })}
+        <br />
+      </div>
+      <hr className="Separator"></hr>
+      
+      <h2 className="BigTitle">
+        MANEJO DE <span>EMoCIONES</span>
+      </h2>
+      <div className="Gallery">
+        {gallery_manejo_recup.map((photo) => {
+          return <ImageCard {...photo} />;
+        })}
+        <br />
+      </div>
+      <hr className="Separator"></hr>
+
       <p className="about aboutus--text">
         Contamos con un equipo interdisciplinario con profesionales
         especializados en diversas disciplinas como{" "}

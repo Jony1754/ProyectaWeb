@@ -52,18 +52,6 @@ export default function Landing() {
           <span>SERVICIOS</span> QUE OFRECEMOS
         </h2>
         <FeatureContainer />
-
-        <h2 className="BigTitle">
-          <span>NUESTRAS</span> EXPERIENCIAS
-        </h2>
-
-        <br />
-      <div className="Gallery">
-        {gallery_exp.map((photo) => {
-          return <ImageCard {...photo} />;
-        })}
-        <br />
-      </div>
       </main>
     </>
   );

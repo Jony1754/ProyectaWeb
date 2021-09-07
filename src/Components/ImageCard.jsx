@@ -6,7 +6,7 @@ const ImageCard = ({ image, title, description }) => {
       <img src={image} alt="" className="ImageCard--image" />
       <div className="overlay">
         <h3>{title || "Test"}</h3>
-        <p>{description || "Actividades de los programas psicoterapeuticos"}</p>
+        <p>{description || ""}</p>
       </div>
     </div>
   );
