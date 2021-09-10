@@ -32,7 +32,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li className="programs">
-          <a href="">Programas</a>
+          <a href="/">Programas</a>
           <ul className="programs--list">
             <li>
               <NavLink activeClassName="active" to="/programas/psicoeducativos">
