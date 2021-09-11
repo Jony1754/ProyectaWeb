@@ -33,7 +33,7 @@ export default function Sidenav() {
           <NavLink
             activeClassName="active"
             exact
-            to="/about"
+            to="/#/about"
             onClick={closeNav}
           >
             Nosotros
@@ -43,7 +43,7 @@ export default function Sidenav() {
           <NavLink
             activeClassName="active"
             exact
-            to="/programas/psicoeducativos"
+            to="/#/programas/psicoeducativos"
             onClick={closeNav}
           >
             Programas Psicoterapéuticos
@@ -53,14 +53,14 @@ export default function Sidenav() {
           <NavLink
             activeClassName="active"
             exact
-            to="/programas/empresariales"
+            to="/#/programas/empresariales"
             onClick={closeNav}
           >
             Programas Empresariales y Psicoeducativos
           </NavLink>
         </li>
         <li>
-          <NavLink to="/asesoria" activeClassName="active" onClick={closeNav}>
+          <NavLink to="/#/asesoria" activeClassName="active" onClick={closeNav}>
             Asesor&iacute;a virtual
           </NavLink>
         </li>
