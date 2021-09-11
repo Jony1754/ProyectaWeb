@@ -7,11 +7,6 @@ import Psicoeducativos from "./Pages/Psicoterapeuticos";
 import Empresariales from "./Pages/Empresariales";
 import Asesoria from "./Pages/Aseroria";
 function App() {
-  const location = useLocation();
- 
-    useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-    }, [location.pathname]);
   return (
     <>
       <BrowserRouter>
