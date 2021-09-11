@@ -35,7 +35,7 @@ export default function Navbar() {
           <a href="/">Programas</a>
           <ul className="programs--list">
             <li>
-              <NavLink activeClassName="active" to="../Pages/Psicoterapeutico">
+              <NavLink activeClassName="active" to="/Programas/psicoeducativos">
                 Psicoterapéuticos
               </NavLink>
             </li>

@@ -7,24 +7,27 @@ import Psicoeducativos from "./Pages/Psicoterapeuticos";
 import Empresariales from "./Pages/Empresariales";
 import Asesoria from "./Pages/Aseroria";
 function App() {
+  const location = useLocation();
+ 
+    useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+    }, [location.pathname]);
   return (
     <>
       <BrowserRouter>
         <Layout>
           <Switch>
             <Route exact path="/" component={Landing} />
-            <Route exact path="/about" component={About} />
+            <Route path="/about" component={About} />
             <Route
-              exact
               path="/programas/psicoeducativos"
               component={Psicoeducativos}
             />
             <Route
-              exact
               path="/programas/empresariales"
               component={Empresariales}
             />
-            <Route exact path="/asesoria" component={Asesoria} />
+            <Route path="/asesoria" component={Asesoria} />
           </Switch>
         </Layout>
       </BrowserRouter>
