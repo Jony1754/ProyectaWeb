@@ -27,12 +27,12 @@ export default function Navbar() {
       <img src={logo} alt="" className="header--logo" />
       <ul className="header--navbar">
         <li>
-          <NavLink activeClassName="active" exact to="/">
+          <NavLink activeClassName="active" exact to="/#/">
             Inicio
           </NavLink>
         </li>
         <li className="programs">
-          <a href="/">Programas</a>
+          <a href="/#/">Programas</a>
           <ul className="programs--list">
             <li>
               <NavLink activeClassName="active" to="/#/programas/psicoeducativos">

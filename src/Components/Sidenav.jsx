@@ -25,7 +25,8 @@ export default function Sidenav() {
       <img src={logo} alt="" className="logo" />
       <ul className="sidenav--list">
         <li>
-          <NavLink activeClassName="active" exact to="/" onClick={closeNav}>
+          <NavLink activeClassName="active" exact to="
+        /#/" onClick={closeNav}>
             Inicio
           </NavLink>
         </li>
