@@ -27,32 +27,32 @@ export default function Navbar() {
       <img src={logo} alt="" className="header--logo" />
       <ul className="header--navbar">
         <li>
-          <NavLink activeClassName="active" exact to="/#/">
+          <NavLink activeClassName="active" exact to="/">
             Inicio
           </NavLink>
         </li>
         <li className="programs">
-          <a href="/#/">Programas</a>
+          <a href="/">Programas</a>
           <ul className="programs--list">
             <li>
-              <NavLink activeClassName="active" to="/#/programas/psicoeducativos">
+              <NavLink activeClassName="active" to="/programas/psicoeducativos">
                 Psicoterapéuticos
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="active" to="/#/programas/empresariales">
+              <NavLink activeClassName="active" to="/programas/empresariales">
                 Empresariales y Psicoeducativos
               </NavLink>
             </li>
           </ul>
         </li>
         <li>
-          <NavLink activeClassName="active" to="/#/about">
+          <NavLink activeClassName="active" to="/about">
             Nosotros
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="active" exact to="/#/asesoria">
+          <NavLink activeClassName="active" exact to="/asesoria">
             Asesor&iacute;a virtual
           </NavLink>
         </li>
