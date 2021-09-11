@@ -28,6 +28,7 @@ function App() {
               component={Empresariales}
             />
             <Route path="/asesoria" component={Asesoria} />
+            <Redirect to="/" />
           </Switch>
         </Layout>
       </BrowserRouter>
