@@ -3,15 +3,14 @@ var express = require('express');
 
 var app = express();
 
+app.get('*', function(req, res, next) {
+    if (req.headers['x-forwarded-proto'] != 'https')
+        res.redirect('https://https://proyectapotencialeshumanos.com' + req.url)
+    else
+        next() /* Continue to other routes if we're not redirecting */
+})
 app.use(express.static(path.join(__dirname, 'dist')));
 app.set('port', process.env.PORT || 8080);
-
-app.use(function(req, res, next) {
-    if ((!req.secure) && (req.get('X-Forwarded-Proto') !== 'https')) {
-        res.redirect(307, 'https://' + req.get('Host') + req.url);
-    } else
-        next();
-});
 
 var server = app.listen(app.get('port'), function() {
     console.log('listening on port ', server.address().port);
