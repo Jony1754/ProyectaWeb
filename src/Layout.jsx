@@ -7,6 +7,7 @@ export default function Layout(props) {
       <Header />
       {props.children}
       <Footer />
-    </React.Fragment>
+    </React.Fragment> 
+    
   );
 }
