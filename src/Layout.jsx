@@ -8,5 +8,6 @@ export default function Layout(props) {
       {props.children}
       <Footer />
     </React.Fragment>
+    //This is just a comment
   );
 }
